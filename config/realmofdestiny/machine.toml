@@ -1,0 +1,9 @@
+
+[MachineConfig]
+
+	[MachineConfig.PedestalConfig]
+		#Max Stored Power [FE] - Default: [10000 FE]
+		maxStoredPower = 1000000000
+		#Slot Limit Count - Default: 4
+		slotLimitCount = 64
+

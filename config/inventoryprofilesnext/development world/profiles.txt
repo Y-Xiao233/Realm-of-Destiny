@@ -1,0 +1,12 @@
+
+
+
+
+profile Saved activate HOT5
+	HOT2
+		"ifeu:big_dissolution_chamber_core"
+	HOT6
+		"industrialforegoing:dissolution_chamber"
+	OFFHAND
+		"minecraft:diamond"
+

@@ -1,0 +1,14 @@
+{
+	id: "4A65C018477016D0"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: "ae2:cell_component_1k", weight: 20.0f }
+		{ item: "ae2:cell_component_4k", weight: 15.0f }
+		{ item: "ae2:cell_component_16k", weight: 10.0f }
+		{ item: "ae2:cell_component_64k", weight: 5.0f }
+		{ item: "ae2:cell_component_256k" }
+		{ item: "ae2:item_cell_housing", weight: 15.0f }
+	]
+	title: "{rod.reward_table.me_cell}"
+}

@@ -1,0 +1,85 @@
+{
+    "name": "block.rod.paint_generator",
+    "appearance": {
+        "block": "kubejs:machine/paint_generator",
+        "light":15,
+        "hardness": 1,
+        "requires_tool": false,
+        "running": {
+            "block": "kubejs:machine/paint_generator"
+        }
+    },
+    "gui": [
+      {
+        "texture": "custommachinery:textures/gui/base_background.png",
+        "x": 0,
+        "y": 0,
+        "type": "custommachinery:texture"
+      },
+      {
+        "x": 47,
+        "y": 80,
+        "type": "custommachinery:player_inventory"
+      },
+      {
+        "type": "custommachinery:reset",
+        "x": 220,
+        "y": 25
+      },
+      {
+        "type": "custommachinery:config",
+        "x": 255,
+        "y": 0
+      },
+      {
+        "id":"input",
+        "x":87,
+        "y":20,
+        "type":"custommachinery:fluid"
+      },
+      {
+        "id": "output",
+        "x": 149,
+        "y": 20,
+        "type": "custommachinery:energy"
+      },
+      {
+        "x": 116,
+        "y": 35,
+        "type": "custommachinery:progress"
+      },
+      {
+        "x": 236,
+        "y": 5,
+        "type": "custommachinery:status"
+      },
+      {
+        "text": "block.rod.paint_generator",
+        "x": 7,
+        "y": 5,
+        "type": "custommachinery:text"
+      }
+    ],
+    "components": [
+      {
+        "mode":"input",
+        "id":"input",
+        "type": "custommachinery:fluid",
+        "capacity": 2000
+      },
+      {
+        "mode": "output",
+        "id": "output",
+        "type": "custommachinery:energy",
+        "capacity": 6000,
+        "config": {
+          "default": "output"
+        }
+      },
+      {
+        "type": "custommachinery:redstone",
+        "poweroutput": 15
+      }
+    ],
+    "catalysts": []
+  }

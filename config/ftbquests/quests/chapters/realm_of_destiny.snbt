@@ -1,0 +1,270 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "realm_of_destiny"
+	group: ""
+	icon: "realmofdestiny:pedestal"
+	id: "4DD2A211636B7270"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{rod.welcome.1.desription}"]
+			icon: "realmofdestiny:pedestal"
+			id: "3373567332D08FA9"
+			tasks: [{
+				id: "009419DEBD577286"
+				title: "{rod.welcome.1.title}"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3373567332D08FA9"]
+			description: [
+				"{rod.welcome.2.description0}"
+				"{rod.welcome.2.description1}"
+				"{rod.welcome.2.description2}"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "jei:textures/jei/atlas/gui/icons/info.png"
+				}
+			}
+			id: "2FB0FF7FF84392A3"
+			tasks: [{
+				id: "6003727B7D6785F8"
+				title: "{rod.welcome.2.title}"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3373567332D08FA9"]
+			description: [
+				"{rod.welcome.3.description0}"
+				""
+				"{rod.welcome.3.description1}"
+				"{rod.welcome.3.description2}"
+				""
+				"{rod.welcome.3.description3}"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							1710060491
+							1244414724
+							-1706817341
+							1439410764
+						]
+						Name: "Y_Xiao233"
+						Properties: {
+							textures: [{
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTcyNDU2MTM0Mzg5MCwKICAicHJvZmlsZUlkIiA6ICI2NWVkNzNjYjRhMmM0MzA0OWE0NDA4YzM1NWNiYWE0YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJZX1hpYW8yMzMiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTkyZDIyNGNlZTQzYTg5ODc4ZTA2M2Y1ZWY0ZGM1YmVjODAxYjkyYzJiMTNiNmMzMWNhODlmNzUzZWNiZjJiMyIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY5YjdmMmExZDAwZDI2ZjMwZWZlM2Y5YWI5YWM4MTdiMWU2ZDM1ZjRmM2NmYjAzMjRlZjJkMzI4MjIzZDM1MCIKICAgIH0KICB9Cn0="
+							}]
+						}
+					}
+				}
+			}
+			id: "3F994A0D384E9D46"
+			rewards: [
+				{
+					id: "64DB7299770CE305"
+					item: {
+						Count: 1
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									1710060491
+									1244414724
+									-1706817341
+									1439410764
+								]
+								Name: "Y_Xiao233"
+								Properties: {
+									textures: [{
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTcyNDU2MTM0Mzg5MCwKICAicHJvZmlsZUlkIiA6ICI2NWVkNzNjYjRhMmM0MzA0OWE0NDA4YzM1NWNiYWE0YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJZX1hpYW8yMzMiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTkyZDIyNGNlZTQzYTg5ODc4ZTA2M2Y1ZWY0ZGM1YmVjODAxYjkyYzJiMTNiNmMzMWNhODlmNzUzZWNiZjJiMyIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY5YjdmMmExZDAwZDI2ZjMwZWZlM2Y5YWI5YWM4MTdiMWU2ZDM1ZjRmM2NmYjAzMjRlZjJkMzI4MjIzZDM1MCIKICAgIH0KICB9Cn0="
+									}]
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7042DFFADD3FD456"
+					item: {
+						Count: 1
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-803157436
+									-1374270028
+									-1142197095
+									418052210
+								]
+								Name: "Red_Tea_co"
+								Properties: {
+									textures: [{
+										Signature: "KI0nU9HF56/UQGLd6oEzF7x8wmqkHkRiPqhnHX3o3L/lWfuaz3F23MQu4uvD5fXSYaESykZ9kwirqvJ6r0Q4OqhR+xPDb+SI/n8Cu/Td1pre6JKZJ+iF9CWepTVaX7wxGXdioonafflPEhAajt299G//NAbtB73CsZ+dfmqoEnpgTfUGsJd+F2OFLlGonwfwDYn428SJD3zmUjZ+g2HCeMtjfw0xwlnA0SWpJNkaJ83FpKVUX1FY14kZqgntbgnT87TbdlKi4vdN071cpEsNLltIeTDJ8l46hjBgdHeGtdI1j4METLOgF4J2iGzChklk+Y+ZXoSt50pGK3SrnF7gdK+XHTWsaam3YZHWWAkvmkypXKCWSCAUWPqntGlonC8fvWGmkTLiCopbo13LlQIpuIdTeYzWVRxyQj7OaRaPrBz/1/vnbaRNhKcguQKnKsdwPNSQFNOZzW/U8NLZ4MJxKKvPi5WJtrejeVK0dZN8z9riMeQ8AlzFA3xDnctubEH3WDV+3w04DHr1krx98tE00XzGTQywbLQ8DOrzxWDfr1bktiXrpDoJM6CgzcAj8FAM/C6FKINNM/xEdH3IoRRb1YdwEJgh0VDPCkml9vMw67ncSSsfDm6TM4D7GRzGOg3GXFolLC8iLqaB4qbypTybxpFygRXCQN1PbcvNoDM7Z9Y="
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTcyNDU2MjUyNjUyNiwKICAicHJvZmlsZUlkIiA6ICJkMDIwY2E0NGFlMTY0ZGI0YmJlYjc0OTkxOGVhZjg3MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZWRfVGVhX2NvIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NmMzMzYWMxNmRkZTZkZGQ4MTFhMzY4ZDQ0YjA3NTNiN2Q5NGE2NTc5YWMyNzI0YWIyZTA1MDRjZTM0MGZlNzYiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y5YTc2NTM3NjQ3OTg5ZjlhMGI2ZDAwMWUzMjBkYWM1OTFjMzU5ZTllNjFhMzFmNGNlMTFjODhmMjA3ZjBhZDQiCiAgICB9CiAgfQp9"
+									}]
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/tellraw @a {\"text\":\"点击前往作者的b站主页\",\"color\":\"green\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://space.bilibili.com/451025800\"}}"
+					id: "26687F9E20E63397"
+					title: "{rod.welcome.3.bilibili}"
+					type: "command"
+				}
+				{
+					command: "/tellraw @a {\"text\":\"点击前往作者的爱发电\",\"color\":\"green\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://afdian.com/a/y_xiao233\"}}"
+					id: "5BF1F26A6B390327"
+					title: "{rod.welcome.3.afdian}"
+					type: "command"
+				}
+			]
+			subtitle: "{rod.welcome.3.subtitle}"
+			tasks: [{
+				id: "254EDEDFF94DC84D"
+				title: "{rod.welcome.3.title}"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3373567332D08FA9"]
+			description: [
+				"{rod.welcome.4.description0}"
+				"{rod.welcome.4.description1}"
+				""
+				"{rod.welcome.4.description2}"
+				"{rod.welcome.4.description3}"
+			]
+			icon: "ae2:cell_workbench"
+			id: "3685C93F31F82A59"
+			tasks: [{
+				id: "34527F91F3C00D50"
+				title: "{rod.welcome.4.title}"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3373567332D08FA9"]
+			description: ["{rod.welcome.5.description}"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "quark:textures/attribute/attack_damage.png"
+				}
+			}
+			id: "32CA1F3DD457AAE1"
+			tasks: [{
+				id: "304CE57C633E1691"
+				title: "{rod.welcome.5.title}"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3373567332D08FA9"]
+			description: [
+				"{rod.welcome.6.description0}"
+				"{rod.welcome.6.gamerule_false1}"
+				"{rod.welcome.6.gamerule_false2}"
+				"{rod.welcome.6.gamerule_false3}"
+				"{rod.welcome.6.gamerule_false4}"
+				""
+				"{rod.welcome.6.description1}"
+				"{rod.welcome.6.gamerule_true1}"
+				"{rod.welcome.6.gamerule_true2}"
+				""
+				"{rod.welcome.6.description2}"
+				"{rod.welcome.6.command_disabled1}"
+				"{rod.welcome.6.command_disabled2}"
+				"{rod.welcome.6.command_disabled3}"
+			]
+			icon: "minecraft:chain"
+			id: "428C6C7136F0CCB1"
+			tasks: [{
+				id: "251D1956EF8F77A9"
+				title: "{rod.welcome.6.title}"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3373567332D08FA9"]
+			description: [
+				"{rod.welcome.7.description0}"
+				"{rod.welcome.7.description1}"
+			]
+			icon: "create:schematic"
+			id: "6561CCCE7ACCB097"
+			tasks: [{
+				id: "0E841849B3605038"
+				title: "{rod.welcome.7.title}"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3373567332D08FA9"]
+			description: ["{rod.welcome.8.description}"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "custommachinery:block/custom_machine_front"
+				}
+			}
+			id: "4129A9856F1B5706"
+			tasks: [{
+				id: "5710A3FD70F93CA2"
+				title: "{rod.welcome.8.title}"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3373567332D08FA9"]
+			description: [
+				"{rod.welcome.9.description0}"
+				""
+				"{rod.welcome.9.description1}"
+			]
+			icon: "minecraft:oak_sapling"
+			id: "110F28AFE6EDED39"
+			tasks: [{
+				id: "1AF087B7603D8D3A"
+				title: "{rod.welcome.9.title}"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+	]
+	title: "{rod.welcome.title}"
+}

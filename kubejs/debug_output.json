@@ -1,0 +1,13 @@
+{
+	"output": "ae2:creative_item_cell",
+	"pattern": [
+		"AAA",
+		"ABA",
+		"AAA"
+	],
+	"key": {
+		"A": "create:creative_crate",
+		"B": "kubejs:creative_cell_housing"
+	},
+	"id": "creative_item_cell"
+}

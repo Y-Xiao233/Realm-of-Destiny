@@ -1,0 +1,21 @@
+{
+	id: "53A6E0D162724018"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "thermal:copper_coin", weight: 37.0f }
+		{ count: 4, item: "thermal:copper_coin", weight: 90.0f }
+		{ count: 8, item: "thermal:copper_coin", weight: 60.0f }
+		{ count: 16, item: "thermal:copper_coin", weight: 50.0f }
+		{ item: "thermal:iron_coin", weight: 55.0f }
+		{ count: 4, item: "thermal:iron_coin", weight: 45.0f }
+		{ count: 8, item: "thermal:iron_coin", weight: 37.0f }
+		{ count: 16, item: "thermal:iron_coin", weight: 25.0f }
+		{ item: "thermal:gold_coin", weight: 45.0f }
+		{ count: 4, item: "thermal:gold_coin", weight: 33.0f }
+		{ count: 8, item: "thermal:gold_coin", weight: 15.0f }
+		{ item: "thermal:netherite_coin", weight: 30.0f }
+		{ count: 4, item: "thermal:netherite_coin", weight: 10.0f }
+	]
+	title: "{rod.reward_table.money}"
+}

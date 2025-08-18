@@ -1,0 +1,17 @@
+ServerEvents.recipes(event =>{
+    const id_prefix = 'realm_of_destiny:recipes/industrialforegoing/fluid_extractor/'
+
+    const recipes = [
+        {
+            output:Fluid.of('kubejs:energized_fluid',10),
+            input:'powah:energized_steel_block',
+            chance:0.01,
+            result:'kubejs:empty_block',
+            id:"energized_fluid"
+        }
+    ]
+
+    recipes.forEach(recipe =>{
+        event.recipes.industrialforegoing.fluid_extractor(recipe.output,recipe.input,recipe.chance,recipe.result).id(id_prefix + recipe.id)
+    })
+})

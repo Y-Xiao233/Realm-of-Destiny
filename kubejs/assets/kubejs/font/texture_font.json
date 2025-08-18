@@ -1,0 +1,484 @@
+{
+    "providers":[
+        {
+            "type":"bitmap",
+            "file":"kubejs:item/me_component_package.png",
+            "ascent":7,
+            "chars":[
+                "\u0001"
+            ]
+        },
+        {
+            "type":"bitmap",
+            "file":"ae2:item/cell_component_1k.png",
+            "ascent":7,
+            "chars":[
+                "\u0002"
+            ]
+        },
+        {
+            "type":"bitmap",
+            "file":"ae2:item/cell_component_4k.png",
+            "ascent":7,
+            "chars":[
+                "\u0003"
+            ]
+        },
+        {
+            "type":"bitmap",
+            "file":"ae2:item/cell_component_16k.png",
+            "ascent":7,
+            "chars":[
+                "\u0004"
+            ]
+        },
+        {
+            "type":"bitmap",
+            "file":"ae2:item/cell_component_64k.png",
+            "ascent":7,
+            "chars":[
+                "\u0005"
+            ]
+        },
+        {
+            "type":"bitmap",
+            "file":"ae2:item/cell_component_256k.png",
+            "ascent":7,
+            "chars":[
+                "\u0006"
+            ]
+        },
+        {
+            "type":"bitmap",
+            "file":"kubejs:item/upgrade_package.png",
+            "ascent":7,
+            "chars":[
+                "\u0007"
+            ]
+        },
+		{
+			"type": "bitmap",
+			"file": "kubejs:item/font/speed_upgrade.png",
+			"ascent": 7,
+			"chars": [
+				"\u0008"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "kubejs:item/font/stack_upgrade.png",
+			"ascent": 7,
+			"chars": [
+				"\u0009"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "ifeu:item/chance_addon_4.png",
+			"ascent": 7,
+			"chars": [
+				"\u0010"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "ifeu:item/efficiency_addon_3.png",
+			"ascent": 7,
+			"chars": [
+				"\u0011"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "ifeu:item/speed_addon_3.png",
+			"ascent": 7,
+			"chars": [
+				"\u0012"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "ifeu:item/processing_addon_3.png",
+			"ascent": 7,
+			"chars": [
+				"\u0013"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "industrialforegoing:item/processing_addon_1.png",
+			"ascent": 7,
+			"chars": [
+				"\u0014"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "industrialforegoing:item/efficiency_addon_1.png",
+			"ascent": 7,
+			"chars": [
+				"\u0015"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "industrialforegoing:item/speed_addon_1.png",
+			"ascent": 7,
+			"chars": [
+				"\u0016"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "industrialforegoing:item/range_addon7.png",
+			"ascent": 7,
+			"chars": [
+				"\u0017"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "industrialforegoing:item/range_addon3.png",
+			"ascent": 7,
+			"chars": [
+				"\u0018"
+			]
+		},
+        		{
+			"type": "bitmap",
+			"file": "kubejs:item/module_package.png",
+			"ascent": 7,
+			"chars": [
+				"\u0019"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "kubejs:item/font/fluid_module.png",
+			"ascent": 7,
+			"chars": [
+				"\u102a"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "kubejs:item/font/fluid_module_2.png",
+			"ascent": 7,
+			"chars": [
+				"\u102b"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "kubejs:item/font/puller_module_2.png",
+			"ascent": 7,
+			"chars": [
+				"\u102c"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "kubejs:item/font/puller_module_1.png",
+			"ascent": 7,
+			"chars": [
+				"\u1001"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "kubejs:item/font/sender_module_1.png",
+			"ascent": 7,
+			"chars": [
+				"\u1002"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "kubejs:item/font/sender_module_2.png",
+			"ascent": 7,
+			"chars": [
+				"\u1003"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "kubejs:item/font/sender_module_3.png",
+			"ascent": 7,
+			"chars": [
+				"\u1004"
+			]
+		},
+		{
+			"type":"bitmap",
+			"file":"ifeu:item/creative_chance_addon.png",
+			"ascent":7,
+			"chars":[
+				"\u1005"
+			]
+		},
+		{
+			"type":"bitmap",
+			"file":"laserio:item/overclocker_card.png",
+			"ascent":7,
+			"chars":[
+				"\u1006"
+			]
+		},
+		{
+			"type":"bitmap",
+			"file":"laserio:item/overclocker_node.png",
+			"ascent":7,
+			"chars":[
+				"\u1007"
+			]
+		},
+		{
+			"type":"bitmap",
+			"file":"sfm:item/disk.png",
+			"ascent":7,
+			"chars":[
+				"\u1008"
+			]
+		},
+		{
+			"type":"bitmap",
+			"file":"kubejs:item/font/sfm_cable.png",
+			"ascent":7,
+			"chars":[
+				"\u1009"
+			]
+		},
+		{
+			"type":"bitmap",
+			"file":"kubejs:item/font/sfm_fancy_cable.png",
+			"ascent":7,
+			"chars":[
+				"\u1010"
+			]
+		},
+		{
+			"type":"bitmap",
+			"file":"kubejs:item/font/sfm_manager.png",
+			"ascent":7,
+			"chars":[
+				"\u1011"
+			]
+		},
+		{
+			"type":"bitmap",
+			"file":"kubejs:item/sfm_package.png",
+			"ascent":7,
+			"chars":[
+				"\u1012"
+			]
+		},
+		{
+			"type":"bitmap",
+			"file":"kubejs:item/stage_package.png",
+			"ascent":7,
+			"chars":[
+				"\u1013"
+			]
+		},
+		{
+			"type":"bitmap",
+			"file":"kubejs:item/font/colorful_matter_ball_seven.png",
+			"ascent":7,
+			"chars":[
+				"\u1014"
+			]
+		},
+		{
+			"type":"bitmap",
+			"file":"kubejs:item/font/compacting_drawer.png",
+			"ascent":7,
+			"chars":[
+				"\u1015"
+			]
+		},
+		{
+			"type":"bitmap",
+			"file":"kubejs:item/font/diamond_furnace.png",
+			"ascent":7,
+			"chars":[
+				"\u1016"
+			]
+		},
+		{
+			"type":"bitmap",
+			"file":"kubejs:item/font/gold_furnace.png",
+			"ascent":7,
+			"chars":[
+				"\u1017"
+			]
+		},
+		{
+			"type":"bitmap",
+			"file":"kubejs:item/font/hydroponic_bed.png",
+			"ascent":7,
+			"chars":[
+				"\u1018"
+			]
+		},
+		{
+			"type":"bitmap",
+			"file":"kubejs:item/font/machine_smelter.png",
+			"ascent":7,
+			"chars":[
+				"\u1019"
+			]
+		},
+		{
+			"type":"bitmap",
+			"file":"mekanism:item/upgrade_speed.png",
+			"ascent":7,
+			"chars":[
+				"\u1020"
+			]
+		},
+		{
+			"type":"bitmap",
+			"file":"ifeu:item/chance_addon_2.png",
+			"ascent":7,
+			"chars":[
+				"\u1021"
+			]
+		},
+		{
+			"type":"bitmap",
+			"file":"projecte:item/covalence_dust/low.png",
+			"ascent":7,
+			"chars":[
+				"\u1022"
+			]
+		},
+		{
+			"type":"bitmap",
+			"file":"ifeu:item/dragon_star.png",
+			"ascent":7,
+			"chars":[
+				"\u1023"
+			]
+		},
+		{
+			"type":"bitmap",
+			"file":"kubejs:item/font/glowstone.png",
+			"ascent":7,
+			"chars":[
+				"\u1024"
+			]
+		},
+		{
+			"type":"bitmap",
+			"file":"kubejs:item/font/source_gem_block.png",
+			"ascent":7,
+			"chars":[
+				"\u1025"
+			]
+		},
+		{
+			"type":"bitmap",
+			"file":"minecraft:item/diamond.png",
+			"ascent":7,
+			"chars":[
+				"\u1026"
+			]
+		},
+		{
+			"type":"bitmap",
+			"file":"kubejs:item/book_of_uncrafting.png",
+			"ascent":7,
+			"chars":[
+				"\u1027"
+			]
+		},
+		{
+			"type":"bitmap",
+			"file":"sophisticatedbackpacks:item/stack_upgrade_tier_2.png",
+			"ascent":7,
+			"chars":[
+				"\u1028"
+			]
+		},
+		{
+			"type":"bitmap",
+			"file":"sophisticatedbackpacks:item/stack_upgrade_tier_4.png",
+			"ascent":7,
+			"chars":[
+				"\u1029"
+			]
+		},
+		{
+			"type":"bitmap",
+			"file":"sophisticatedbackpacks:item/stack_upgrade_omega_tier.png",
+			"ascent":7,
+			"chars":[
+				"\u1030"
+			]
+		},
+		{
+			"type":"bitmap",
+			"file":"kubejs:item/font/card_item.png",
+			"ascent":7,
+			"chars":[
+				"\u1031"
+			]
+		},
+		{
+			"type":"bitmap",
+			"file":"kubejs:item/font/card_fluid.png",
+			"ascent":7,
+			"chars":[
+				"\u1032"
+			]
+		},
+		{
+			"type":"bitmap",
+			"file":"kubejs:item/font/card_energy.png",
+			"ascent":7,
+			"chars":[
+				"\u1033"
+			]
+		},
+		{
+			"type":"bitmap",
+			"file":"kubejs:item/font/card_redstone.png",
+			"ascent":7,
+			"chars":[
+				"\u1034"
+			]
+		},
+		{
+			"type":"bitmap",
+			"file":"meinfinitycell:item/infinity_cobblestone_cell.png",
+			"ascent":7,
+			"chars":[
+				"\u1035"
+			]
+		},
+		{
+			"type":"bitmap",
+			"file":"kubejs:item/creative_cell_housing.png",
+			"ascent":7,
+			"chars":[
+				"\u1036"
+			]
+		},
+		{
+			"type":"bitmap",
+			"file":"kubejs:item/font/netherite_coin.png",
+			"ascent":7,
+			"chars":[
+				"\u1037"
+			]
+		},
+		{
+			"type":"bitmap",
+			"file":"kubejs:item/creative_housing_package.png",
+			"ascent":7,
+			"chars":[
+				"\u1038"
+			]
+		}
+    ]
+}

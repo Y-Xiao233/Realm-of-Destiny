@@ -1,0 +1,115 @@
+{
+    "name": "block.rod.pigment_injector",
+    "appearance": {
+        "block": "kubejs:machine/pigment_injector",
+        "light":15,
+        "hardness": 1,
+        "requires_tool": false,
+        "running": {
+            "block": "kubejs:machine/pigment_injector"
+        }
+    },
+    "gui": [
+      {
+        "texture": "custommachinery:textures/gui/base_background.png",
+        "x": 0,
+        "y": 0,
+        "type": "custommachinery:texture"
+      },
+      {
+        "x": 47,
+        "y": 80,
+        "type": "custommachinery:player_inventory"
+      },
+      {
+        "type": "custommachinery:reset",
+        "x": 220,
+        "y": 25
+      },
+      {
+        "type": "custommachinery:config",
+        "x": 255,
+        "y": 0
+      },
+      {
+        "id":"input",
+        "x":87,
+        "y":35,
+        "type":"custommachinery:slot",
+        "ghost":["minecraft:white_dye","minecraft:black_dye","minecraft:light_blue_dye","minecraft:yellow_dye","minecraft:purple_dye"]
+      },
+      {
+        "id": "output",
+        "x": 149,
+        "y": 35,
+        "type": "custommachinery:slot",
+        "ghost":["kubejs:colorful_matter_ball"]
+      },
+      {
+        "x": 116,
+        "y": 35,
+        "type": "custommachinery:progress"
+      },
+      {
+        "x": 236,
+        "y": 5,
+        "type": "custommachinery:status"
+      },
+      {
+        "text": "block.rod.pigment_injector",
+        "x": 7,
+        "y": 5,
+        "type": "custommachinery:text"
+      }
+    ],
+   "jei": [
+      {
+        "id":"input",
+        "x":87,
+        "y":35,
+        "type":"custommachinery:slot"
+      },
+      {
+        "id": "output",
+        "x": 149,
+        "y": 35,
+        "priority":2,
+        "type": "custommachinery:slot"
+      },
+      {
+        "type": "custommachinery:texture",
+        "x": 150,
+        "y": 36,
+        "width":16,
+        "height":16,
+        "priority":1,
+        "texture":"kubejs:textures/item/colorful_matter_ball.png",
+        "jei":true
+      },
+      {
+        "x": 116,
+        "y": 35,
+        "type": "custommachinery:progress"
+      }
+    ],
+    "components": [
+      {
+        "mode":"input",
+        "id":"input",
+        "type": "custommachinery:item",
+        "filter":["minecraft:white_dye","minecraft:black_dye","minecraft:light_blue_dye","minecraft:yellow_dye","minecraft:purple_dye"],
+        "whitelist":true
+      },
+      {
+        "id": "output",
+        "type": "custommachinery:item",
+        "filter":["kubejs:colorful_matter_ball"],
+        "whitelist":true
+      },
+      {
+        "type": "custommachinery:redstone",
+        "poweroutput": 15
+      }
+    ],
+    "catalysts": []
+  }

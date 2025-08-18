@@ -1,0 +1,239 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rodinfinitytitle"
+	group: ""
+	icon: "kubejs:infinity_cell_1"
+	id: "5C4B921C291BAE3D"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: [
+				"5CE39C7A1FF95036"
+				"7C59ED4E33CE26A9"
+			]
+			icon: "kubejs:infinity_cell_1"
+			id: "648D81737D825744"
+			rewards: [{
+				id: "7407F2B8D3589118"
+				item: "kubejs:infinity_cell_1"
+				type: "item"
+			}]
+			tasks: [{
+				id: "425DDE5878C7DCBE"
+				type: "checkmark"
+			}]
+			title: "{rod.infinity.1.title}"
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"0014D4F28AB9AC8A"
+				"7C59ED4E33CE26A9"
+			]
+			icon: "kubejs:infinity_cell_1"
+			id: "05CE80B53DACD190"
+			rewards: [{
+				id: "4961AE3B9DD324F4"
+				item: "kubejs:infinity_cell_2"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2FFB9DC5AC023D0D"
+				type: "checkmark"
+			}]
+			title: "{rod.infinity.2.title}"
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"5678BEBB02F15BFC"
+				"7C59ED4E33CE26A9"
+			]
+			icon: "kubejs:infinity_cell_1"
+			id: "25D1D894B38CDD99"
+			rewards: [{
+				id: "34DEA8D5DAACA115"
+				item: "kubejs:infinity_cell_3"
+				type: "item"
+			}]
+			tasks: [{
+				id: "315DB8D3DAEE85B0"
+				type: "checkmark"
+			}]
+			title: "{rod.infinity.3.title}"
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"5009DD5783CFA532"
+				"7C59ED4E33CE26A9"
+			]
+			icon: "kubejs:infinity_cell_1"
+			id: "25294236EB3F34F3"
+			rewards: [{
+				id: "2B6EAC11E6B00DD2"
+				item: "kubejs:infinity_cell_4"
+				type: "item"
+			}]
+			tasks: [{
+				id: "41471B000B01335B"
+				type: "checkmark"
+			}]
+			title: "{rod.infinity.4.title}"
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4DD2A211636B7270"]
+			id: "7C59ED4E33CE26A9"
+			tasks: [{
+				id: "6DE290EC3B2F9375"
+				type: "checkmark"
+			}]
+			title: "{rod.infinity.me}"
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7C59ED4E33CE26A9"]
+			icon: "ae2:magenta_glass_cable"
+			id: "7F1371E7B0178AF3"
+			rewards: [
+				{
+					id: "648348789B8B3106"
+					item: "kubejs:infinity_cell_c4"
+					type: "item"
+				}
+				{
+					id: "2DE60ECCC445DA46"
+					item: "kubejs:infinity_cell_c3"
+					type: "item"
+				}
+				{
+					id: "4419DCBCAC3F1C5A"
+					item: "kubejs:infinity_cell_c2"
+					type: "item"
+				}
+				{
+					id: "5EE584F13B80453F"
+					item: "kubejs:infinity_cell_c1"
+					type: "item"
+				}
+				{
+					id: "77904A00221C81B7"
+					item: "kubejs:infinity_cell_c5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "191EA618CE0E68AB"
+				type: "checkmark"
+			}]
+			title: "{rod.infinity.5.title}"
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7C59ED4E33CE26A9"]
+			icon: "modularrouters:modular_router"
+			id: "56A933C4CCCFB468"
+			rewards: [{
+				id: "4ECA3D2231184B6B"
+				item: "kubejs:infinity_cell_m1"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "3A7F30B2D7CE2262"
+				item: "kubejs:tome2"
+				type: "item"
+			}]
+			title: "{rod.infinity.6.title}"
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7C59ED4E33CE26A9"]
+			icon: "minecraft:white_concrete"
+			id: "61D38AC5753529F7"
+			rewards: [
+				{
+					id: "654A0BF3D353C065"
+					item: "kubejs:infinity_cell_d1"
+					type: "item"
+				}
+				{
+					id: "3EFDB48534857FE7"
+					item: "kubejs:infinity_cell_d2"
+					type: "item"
+				}
+				{
+					id: "094C9537636D304D"
+					item: "kubejs:infinity_cell_d3"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "41637905822A26B0"
+				type: "checkmark"
+			}]
+			title: "{rod.infinity.7.title}"
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"732A72ACC1094668"
+				"7C59ED4E33CE26A9"
+			]
+			icon: "kubejs:infinity_cell_1"
+			id: "07D59CD55D527FAF"
+			rewards: [{
+				id: "3D4B0D6B25D26384"
+				item: "kubejs:infinity_cell_5"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FBB0E56A5600089"
+				type: "checkmark"
+			}]
+			title: "{rod.infinity.8.title}"
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"3E3421CE76B284E1"
+				"7C59ED4E33CE26A9"
+			]
+			icon: "kubejs:infinity_cell_6"
+			id: "3B14A2F0DBD45F29"
+			rewards: [{
+				id: "3BEF1582D3F8D46D"
+				item: "kubejs:infinity_cell_6"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1CD18AFAC3161AFB"
+				type: "checkmark"
+			}]
+			title: "{rod.infinity.9.title}"
+			x: -4.5d
+			y: 4.0d
+		}
+	]
+	title: "{rod.infinity.title}"
+}

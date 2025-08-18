@@ -1,0 +1,74 @@
+ServerEvents.recipes(event =>{
+    const id_prefix = 'realm_of_destiny:recipes/realmofdestiny/pedestal_generator/'
+    /*
+    {
+     input:,
+     input_chance:,
+     output:,
+     outputChance:0,
+     time:,
+     energy:,
+     id:
+    }
+    */
+    const recipes = [
+        {
+            input:'kubejs:fluix_shard',
+            input_chance:0,
+            output:'ae2:fluix_crystal',
+            outputChance:0.4,
+            time:100,
+            energy:0,
+            id:'fluix_crystal'
+        },
+        {
+            input:'kubejs:certus_quartz_shard',
+            input_chance:0,
+            output:'ae2:certus_quartz_crystal',
+            outputChance:0.4,
+            time:100,
+            energy:0,
+            id:'certus_quartz_crystal'
+        },
+        {
+            input:'minecraft:gold_ingot',
+            input_chance:0,
+            output:'minecraft:gold_nugget',
+            outputChance:0.5,
+            time:100,
+            energy:0,
+            id:'gold_nugget'
+        },
+        {
+            input:'minecraft:gold_block',
+            input_chance:0,
+            output:'minecraft:gold_ingot',
+            outputChance:0.6,
+            time:100,
+            energy:0,
+            id:'gold_ingot'
+        },
+        {
+            input:'minecraft:yellow_dye',
+            input_chance:0,
+            output:'minecraft:sand',
+            outputChance:0.4,
+            time:100,
+            energy:0,
+            id:"sand"
+        },
+        {
+            input:'mysticalagradditions:insanium_essence',
+            input_chance:0.4,
+            output:'projecte:high_covalence_dust',
+            outputChance:0.2,
+            time:100,
+            energy:100000000,
+            id:"high_covalence_dust"
+        }
+    ]
+
+    recipes.forEach(recipe =>{
+        event.recipes.realmofdestiny.pedestal_generator(recipe.input,recipe.input_chance,recipe.output,recipe.outputChance,recipe.time,recipe.energy).id(id_prefix + recipe.id)
+    })
+})

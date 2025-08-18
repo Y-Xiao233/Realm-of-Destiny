@@ -1,0 +1,7 @@
+{
+	chapter_groups: [
+		{ id: "7421C6976847D09D", title: "{rod.c1.title}" }
+		{ id: "3FB8AFC1F78D1DFD", title: "{rod.c2.title}" }
+		{ id: "16BFCCAB4C7A101B", title: "{rod.c3.title}" }
+	]
+}

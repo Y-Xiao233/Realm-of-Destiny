@@ -1,0 +1,6 @@
+{
+  "parent": "createsifter:block/meshes/mesh",
+  "textures": {
+    "mesh": "kubejs:item/infused_mesh"
+  }
+}
