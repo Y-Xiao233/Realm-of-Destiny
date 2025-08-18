@@ -1,0 +1,226 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rodc3s2title"
+	group: "16BFCCAB4C7A101B"
+	icon: "projectexpansion:transmutation_interface"
+	id: "0AD2D7AA100A737B"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["66084BB65C72D01A"]
+			id: "7C322DE105441655"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "1983C0E2E64DFE79"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C322DE105441655"]
+			id: "3149FB27CA264300"
+			tasks: [{
+				id: "27F323E1B7C42947"
+				item: "mysticalagradditions:insanium_essence"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3149FB27CA264300"]
+			id: "35DA95E73F12EDC2"
+			tasks: [{
+				id: "10D222443AA961D8"
+				item: "projecte:high_covalence_dust"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7C322DE105441655"]
+			id: "109704F51921C709"
+			tasks: [
+				{
+					id: "16D114BE1BC912E7"
+					item: "mekanism:thermal_evaporation_block"
+					type: "item"
+				}
+				{
+					id: "14A516204C0322D7"
+					item: "mekanism:thermal_evaporation_valve"
+					type: "item"
+				}
+				{
+					id: "6A28D3C166E56A45"
+					item: "mekanism:thermal_evaporation_controller"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["109704F51921C709"]
+			id: "75B13BB26A5E4070"
+			tasks: [{
+				id: "784E81AC0A975039"
+				item: "mekanism:lithium_bucket"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"3149FB27CA264300"
+				"75B13BB26A5E4070"
+				"478A1D3A42F18428"
+			]
+			id: "7800B0F6F01102F3"
+			rewards: [{
+				id: "075C4202924BEB62"
+				item: "kubejs:tome3"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F7909E75C15B7B3"
+				item: {
+					Count: 1
+					id: "mysticalagradditions:creative_essence"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"4AC80B558DFADEE4"
+				"5098EBD90C69C3A7"
+			]
+			id: "478A1D3A42F18428"
+			tasks: [{
+				id: "0C36671C2C4B0026"
+				item: {
+					Count: 1
+					id: "mekanism:hdpe_sheet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7C322DE105441655"]
+			hide_dependency_lines: true
+			id: "4AC80B558DFADEE4"
+			tasks: [{
+				id: "13363C0C5D4FA6BE"
+				item: "ifeu:dragon_star_essence_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["367C80604186C50E"]
+			id: "5098EBD90C69C3A7"
+			tasks: [{
+				id: "509647FA5D3C6E5C"
+				item: {
+					Count: 1
+					id: "mekanism:hdpe_pellet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7C322DE105441655"]
+			hide_dependency_lines: true
+			id: "367C80604186C50E"
+			tasks: [{
+				id: "63AE864DAC48C96B"
+				item: "mekanism:electrolytic_separator"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"7800B0F6F01102F3"
+				"35DA95E73F12EDC2"
+			]
+			id: "296FDEE78FE274E9"
+			tasks: [{
+				id: "4092520034DF9B5E"
+				item: "kubejs:high_alloy_covalence"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["296FDEE78FE274E9"]
+			id: "443CFB083A70F810"
+			tasks: [{
+				id: "0F92F1F0825DD60A"
+				item: "thermal:netherite_coin"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"296FDEE78FE274E9"
+				"7800B0F6F01102F3"
+			]
+			id: "61D4A2ED5491C3A9"
+			tasks: [{
+				id: "4C9DF3EB14C737E7"
+				item: "createcasing:chorium_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["61D4A2ED5491C3A9"]
+			id: "4749EC4B93300206"
+			tasks: [{
+				id: "7036A969F656D423"
+				item: "createcasing:creative_casing"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4749EC4B93300206"]
+			id: "5EA9C00752153086"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "43281BDA682D6E3D"
+				item: "mekanism_extras:upgrade_creative"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+	]
+	title: "{rod.c3.s2.title}"
+}

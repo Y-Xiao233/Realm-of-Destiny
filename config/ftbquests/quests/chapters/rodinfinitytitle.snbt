@@ -108,6 +108,7 @@
 			dependencies: ["7C59ED4E33CE26A9"]
 			icon: "ae2:magenta_glass_cable"
 			id: "7F1371E7B0178AF3"
+			optional: true
 			rewards: [
 				{
 					id: "648348789B8B3106"
@@ -148,17 +149,26 @@
 			dependencies: ["7C59ED4E33CE26A9"]
 			icon: "modularrouters:modular_router"
 			id: "56A933C4CCCFB468"
+			optional: true
 			rewards: [{
 				id: "4ECA3D2231184B6B"
 				item: "kubejs:infinity_cell_m1"
 				type: "item"
 			}]
-			tasks: [{
-				consume_items: false
-				id: "3A7F30B2D7CE2262"
-				item: "kubejs:tome2"
-				type: "item"
-			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "3A7F30B2D7CE2262"
+					item: "kubejs:tome2"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "61DB9535D8B261E8"
+					item: "thermal:copper_coin"
+					type: "item"
+				}
+			]
 			title: "{rod.infinity.6.title}"
 			x: -6.0d
 			y: -5.0d
@@ -168,6 +178,7 @@
 			dependencies: ["7C59ED4E33CE26A9"]
 			icon: "minecraft:white_concrete"
 			id: "61D38AC5753529F7"
+			optional: true
 			rewards: [
 				{
 					id: "654A0BF3D353C065"
@@ -233,6 +244,26 @@
 			title: "{rod.infinity.9.title}"
 			x: -4.5d
 			y: 4.0d
+		}
+		{
+			dependencies: [
+				"7C59ED4E33CE26A9"
+				"66084BB65C72D01A"
+			]
+			icon: "kubejs:infinity_cell_7"
+			id: "47C75587F93A8906"
+			rewards: [{
+				id: "0D11A1F432878B1E"
+				item: "kubejs:infinity_cell_7"
+				type: "item"
+			}]
+			tasks: [{
+				id: "24A97721AF358184"
+				type: "checkmark"
+			}]
+			title: "{rod.infinity.10.title}"
+			x: -4.5d
+			y: 5.5d
 		}
 	]
 	title: "{rod.infinity.title}"

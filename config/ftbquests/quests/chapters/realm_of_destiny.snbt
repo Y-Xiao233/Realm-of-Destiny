@@ -52,6 +52,11 @@
 				"{rod.welcome.3.description2}"
 				""
 				"{rod.welcome.3.description3}"
+				"{rod.welcome.3.description4}"
+				"{rod.welcome.3.description5}"
+				"{rod.welcome.3.description6}"
+				"{rod.welcome.3.description7}"
+				"{rod.welcome.3.description8}"
 			]
 			icon: {
 				Count: 1

@@ -507,7 +507,9 @@
 						}]
 					}
 				}
+				match_nbt: true
 				type: "item"
+				weak_nbt_match: true
 			}]
 			x: 4.0d
 			y: -2.0d
@@ -602,14 +604,21 @@
 				"24C5837F8012CD23"
 			]
 			id: "66084BB65C72D01A"
-			rewards: [{
-				count: 16
-				id: "7FF943C77F4AACB3"
-				item: "kubejs:stage_package"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "7FF943C77F4AACB3"
+					item: "kubejs:stage_package"
+					type: "item"
+				}
+				{
+					id: "19A9696EBE978114"
+					item: "kubejs:infinity_cell_7"
+					type: "item"
+				}
+			]
 			shape: "gear"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "29B8BB220E35E84E"
 				item: "mekanism:pellet_antimatter"

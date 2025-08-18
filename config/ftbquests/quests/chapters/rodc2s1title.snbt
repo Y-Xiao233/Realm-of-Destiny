@@ -869,7 +869,7 @@
 				type: "item"
 			}]
 			title: "{rod.c2.s1.6.title}"
-			x: 11.5d
+			x: 12.0d
 			y: 6.0d
 		}
 		{
@@ -886,7 +886,7 @@
 				item: "mekanism:advanced_tier_installer"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 11.5d
 			y: 5.0d
 		}
 		{
@@ -1017,7 +1017,18 @@
 				item: "mekanism_extras:upgrade_stack"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 12.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["632D956630156979"]
+			id: "1BE28E8CDB83BB68"
+			tasks: [{
+				id: "73D69D288B7CA9D8"
+				item: "appflux:fe_cell_housing"
+				type: "item"
+			}]
+			x: 10.5d
 			y: 5.0d
 		}
 	]
