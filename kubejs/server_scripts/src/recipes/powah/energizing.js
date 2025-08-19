@@ -58,22 +58,6 @@ ServerEvents.recipes(event =>{
             "id":"stasis_chamber"
         },
         {
-            "output": "anvilcraft:magnet_ingot",
-            "inputs": [
-                "minecraft:iron_ingot"
-            ],
-            "energy": 10000.0,
-            "id": "magnet_ingot"
-        },
-        {
-            "output": "anvilcraft:magnet_block",
-            "inputs": [
-                "minecraft:iron_block"
-            ],
-            "energy": 80000.0,
-            "id": "magnet_block"
-        },
-        {
             "output": "8x experienceobelisk:cognitive_flux",
             "inputs": [
                 "minecraft:quartz",

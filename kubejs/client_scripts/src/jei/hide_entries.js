@@ -23,6 +23,8 @@ JEIEvents.hideItems(event =>{
     event.hide("mysticalagriculture:mithril_essence")
     event.hide("mysticalagriculture:chrome_essence")
     event.hide("mysticalagriculture:graphite_essence")
+    event.hide("mysticalagriculture:tungsten_essence")
+    event.hide("mysticalagriculture:titanium_essence")
 })
 
 JEIEvents.information(event =>{

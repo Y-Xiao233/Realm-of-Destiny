@@ -24,6 +24,12 @@
 		{
 			dependencies: ["7C322DE105441655"]
 			id: "3149FB27CA264300"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37EFBE62FD762BAB"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "27F323E1B7C42947"
 				item: "mysticalagradditions:insanium_essence"
@@ -35,6 +41,12 @@
 		{
 			dependencies: ["3149FB27CA264300"]
 			id: "35DA95E73F12EDC2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "445D5ED81CB66021"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "10D222443AA961D8"
 				item: "projecte:high_covalence_dust"
@@ -46,6 +58,12 @@
 		{
 			dependencies: ["7C322DE105441655"]
 			id: "109704F51921C709"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0AA122F078740B80"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "16D114BE1BC912E7"
@@ -69,6 +87,12 @@
 		{
 			dependencies: ["109704F51921C709"]
 			id: "75B13BB26A5E4070"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A5C0EAD7F709694"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "784E81AC0A975039"
 				item: "mekanism:lithium_bucket"
@@ -84,11 +108,19 @@
 				"478A1D3A42F18428"
 			]
 			id: "7800B0F6F01102F3"
-			rewards: [{
-				id: "075C4202924BEB62"
-				item: "kubejs:tome3"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "075C4202924BEB62"
+					item: "kubejs:tome3"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6AA9515EA07C8BE3"
+					table_id: 6027752341186428952L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "7F7909E75C15B7B3"
 				item: {
@@ -107,6 +139,12 @@
 				"5098EBD90C69C3A7"
 			]
 			id: "478A1D3A42F18428"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57CCEC27AEC76A72"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0C36671C2C4B0026"
 				item: {
@@ -123,6 +161,12 @@
 			dependencies: ["7C322DE105441655"]
 			hide_dependency_lines: true
 			id: "4AC80B558DFADEE4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "321AFBD8531B29DE"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "13363C0C5D4FA6BE"
 				item: "ifeu:dragon_star_essence_bucket"
@@ -134,6 +178,12 @@
 		{
 			dependencies: ["367C80604186C50E"]
 			id: "5098EBD90C69C3A7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E375ABF7D429293"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "509647FA5D3C6E5C"
 				item: {
@@ -150,6 +200,12 @@
 			dependencies: ["7C322DE105441655"]
 			hide_dependency_lines: true
 			id: "367C80604186C50E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7058A6CC9B4EA6DD"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "63AE864DAC48C96B"
 				item: "mekanism:electrolytic_separator"
@@ -164,6 +220,12 @@
 				"35DA95E73F12EDC2"
 			]
 			id: "296FDEE78FE274E9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E6208626B914901"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "4092520034DF9B5E"
 				item: "kubejs:high_alloy_covalence"
@@ -175,6 +237,12 @@
 		{
 			dependencies: ["296FDEE78FE274E9"]
 			id: "443CFB083A70F810"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F39B3242814294A"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0F92F1F0825DD60A"
 				item: "thermal:netherite_coin"
@@ -189,6 +257,12 @@
 				"7800B0F6F01102F3"
 			]
 			id: "61D4A2ED5491C3A9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "67A356FFB2F383A4"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "4C9DF3EB14C737E7"
 				item: "createcasing:chorium_ingot"
@@ -200,6 +274,12 @@
 		{
 			dependencies: ["61D4A2ED5491C3A9"]
 			id: "4749EC4B93300206"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "752FAB1A68BD3043"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7036A969F656D423"
 				item: "createcasing:creative_casing"

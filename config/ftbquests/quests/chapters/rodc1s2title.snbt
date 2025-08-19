@@ -1198,6 +1198,7 @@
 					count: 4
 					id: "56F5721DC808AC40"
 					item: "kubejs:stage_package"
+					team_reward: true
 					type: "item"
 				}
 				{

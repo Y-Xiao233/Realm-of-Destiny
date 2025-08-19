@@ -390,10 +390,8 @@
 		"mysticalagriculture:mithril_essence",
 		"mysticalagriculture:chrome_essence",
 		"mysticalagriculture:graphite_essence",
-		"anvilcraft:royal_grindstone",
-		"anvilcraft:ember_grindstone",
-		"anvilcraft:brass_ingot",
-		"anvilcraft:brass_pressure_plate"
+		"mysticalagriculture:tungsten_essence",
+		"mysticalagriculture:titanium_essence"
     ],
     "infinity":[
         "ae2:crystal_resonance_generator",
@@ -527,7 +525,6 @@
 		"advanced_ae:data_entangler",
 		"advanced_ae:quantum_accelerator",
 		"advanced_ae:adv_pattern_provider",
-		"anvilcraft:royal_steel_upgrade_smithing_template",
 		"advanced_ae:adv_pattern_encoder",
 		"advanced_ae:small_adv_pattern_provider",
 		"thermalendergy:endergy_upgrade_1",

@@ -120,6 +120,7 @@ ItemEvents.tooltip(tooltip =>{
 
     addTextureTooltip(tooltip,'kubejs:tome1',"tome",(tips,item) =>{
         getTextureContext(tips,'kubejs:me_component_package',"\u0001")
+        getTextureContext(tips,'meinfinitycell:infinity_cobblestone_cell','\u1035')
     })
 
     addTextureTooltip(tooltip,"kubejs:tome2","tome",(tips,item) =>{

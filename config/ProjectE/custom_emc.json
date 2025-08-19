@@ -11282,83 +11282,95 @@
     },
     {
       "item": "kubejs:stage_package",
-      "emc": 0.0
+      "emc": 0
     },
     {
-			"item": "anvilcraft:uranium_ingot",
-			"emc": 0.0
-		},
-		{
-			"item": "anvilcraft:tin_pressure_plate",
-			"emc": 0.0
-		},
-		{
-			"item": "anvilcraft:bronze_ingot",
-			"emc": 0.0
-		},
-		{
-			"item": "anvilcraft:tin_ingot",
-			"emc": 0.0
-		},
-		{
-			"item": "anvilcraft:tin_nugget",
-			"emc": 0.0
-		},
-		{
-			"item": "anvilcraft:silver_pressure_plate",
-			"emc": 0.0
-		},
-		{
-			"item": "anvilcraft:uranium_nugget",
-			"emc": 0.0
-		},
-		{
-			"item": "anvilcraft:silver_block",
-			"emc": 0.0
-		},
-		{
-			"item": "anvilcraft:silver_nugget",
-			"emc": 0.0
-		},
-		{
-			"item": "anvilcraft:tin_block",
-			"emc": 0.0
-		},
-		{
-			"item": "anvilcraft:bronze_block",
-			"emc": 0.0
-		},
-		{
-			"item": "anvilcraft:silver_ingot",
-			"emc": 0.0
-		},
-		{
-			"item": "anvilcraft:bronze_pressure_plate",
-			"emc": 0.0
-		},
-		{
-			"item": "anvilcraft:uranium_block",
-			"emc": 0.0
-		},
-		{
-			"item": "anvilcraft:lead_nugget",
-			"emc": 0.0
-		},
-		{
-			"item": "anvilcraft:lead_pressure_plate",
-			"emc": 0.0
-		},
-		{
-			"item": "anvilcraft:uranium_pressure_plate",
-			"emc": 0.0
-		},
-		{
-			"item": "anvilcraft:lead_ingot",
-			"emc": 0.0
-		},
-		{
-			"item": "anvilcraft:lead_block",
-			"emc": 0.0
-		}
+      "item": "anvilcraft:uranium_ingot",
+      "emc": 0
+    },
+    {
+      "item": "anvilcraft:tin_pressure_plate",
+      "emc": 0
+    },
+    {
+      "item": "anvilcraft:bronze_ingot",
+      "emc": 0
+    },
+    {
+      "item": "anvilcraft:tin_ingot",
+      "emc": 0
+    },
+    {
+      "item": "anvilcraft:tin_nugget",
+      "emc": 0
+    },
+    {
+      "item": "anvilcraft:silver_pressure_plate",
+      "emc": 0
+    },
+    {
+      "item": "anvilcraft:uranium_nugget",
+      "emc": 0
+    },
+    {
+      "item": "anvilcraft:silver_block",
+      "emc": 0
+    },
+    {
+      "item": "anvilcraft:silver_nugget",
+      "emc": 0
+    },
+    {
+      "item": "anvilcraft:tin_block",
+      "emc": 0
+    },
+    {
+      "item": "anvilcraft:bronze_block",
+      "emc": 0
+    },
+    {
+      "item": "anvilcraft:silver_ingot",
+      "emc": 0
+    },
+    {
+      "item": "anvilcraft:bronze_pressure_plate",
+      "emc": 0
+    },
+    {
+      "item": "anvilcraft:uranium_block",
+      "emc": 0
+    },
+    {
+      "item": "anvilcraft:lead_nugget",
+      "emc": 0
+    },
+    {
+      "item": "anvilcraft:lead_pressure_plate",
+      "emc": 0
+    },
+    {
+      "item": "anvilcraft:uranium_pressure_plate",
+      "emc": 0
+    },
+    {
+      "item": "anvilcraft:lead_ingot",
+      "emc": 0
+    },
+    {
+      "item": "anvilcraft:lead_block",
+      "emc": 0
+    },
+    {
+      "item": "kubejs:creative_housing_package",
+      "emc": 4096
+    },
+    {
+      "item": "kubejs:creative_cell_housing",
+      "emc": 409600
+    },
+    {
+      "item": "meinfinitycell:infinity_cobblestone_cell",
+      "emc": 900
+    }
   ]
 }

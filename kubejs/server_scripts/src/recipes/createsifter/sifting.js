@@ -44,5 +44,15 @@ ServerEvents.recipes(event =>{
             Item.of('actuallyadditions:diamatine_crystal_block').withChance(0.4)
         ],
         ['actuallyadditions:diamatine_crystal_block','kubejs:infused_mesh'],
-    ).id(id_prefix + "diamatine_crystal_block")
+    ).id(id_prefix + "diamatine_crystal_block"),
+
+
+    sifting(
+        [
+            Item.of('minecraft:quartz',3).withChance(0.8),
+            Item.of('minecraft:quartz',2).withChance(0.6),
+            Item.of('minecraft:quartz',4).withChance(0.2)
+        ],
+        ['minecraft:diorite','kubejs:infused_mesh'],
+    ).id(id_prefix + "diorite")
 })

@@ -26,7 +26,8 @@ const shop_start = [
 ]
 
 const tome1 = [
-	'kubejs:me_component_package'
+	'kubejs:me_component_package',
+	'meinfinitycell:infinity_cobblestone_cell'
 ]
 
 const tome2 = [

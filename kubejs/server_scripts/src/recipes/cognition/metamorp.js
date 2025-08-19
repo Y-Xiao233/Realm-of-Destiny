@@ -10,11 +10,18 @@ ServerEvents.recipes(event =>{
             id:"time"
         },
         {
-            output:Item.of('anvilcraft:royal_steel_ingot',3),
-            inputs:[Item.of('mekanism:ingot_steel'),Item.of('mekanism:ingot_refined_obsidian'),Item.of('minecraft:emerald')],
-            cost:1000,
+            output:Item.of('ars_nouveau:greater_experience_gem',16),
+            inputs:[Item.of('minecraft:emerald',2),Item.of('minecraft:glowstone_dust'),Item.of('ae2:matter_ball')],
+            cost:96,
             time:40,
-            id:"royal_steel_ingot"
+            id:"greater_experience_gem"
+        },
+        {
+            output:Item.of('mekanism:ingot_refined_obsidian',3),
+            inputs:[Item.of('minecraft:iron_ingot'),Item.of('minecraft:obsidian'),Item.of('mekanism:ingot_refined_glowstone')],
+            cost:100,
+            time:40,
+            id:"ingot_refined_obsidian"
         }
     ]
 

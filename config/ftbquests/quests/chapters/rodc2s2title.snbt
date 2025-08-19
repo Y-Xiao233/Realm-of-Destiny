@@ -24,6 +24,12 @@
 		{
 			dependencies: ["7EC22F836EAF340F"]
 			id: "567E2264B7640DA5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C9D686CF5687957"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "07514D7CA3386018"
 				item: "industrialforegoing:machine_frame_pity"
@@ -36,6 +42,12 @@
 			dependencies: ["567E2264B7640DA5"]
 			id: "65547AA9B0F91D4C"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C22C9FDBCE8E3A1"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "7595C5DEFC5FA63E"
@@ -54,6 +66,12 @@
 				"{rod.c2.s1.6.description3}"
 			]
 			id: "79C692659A3FFFD3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48718249740FD00A"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "3C2A1BDD50863EBF"
@@ -72,6 +90,12 @@
 		{
 			dependencies: ["567E2264B7640DA5"]
 			id: "0A6BF89DDC8C8939"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5272C367B0C6E8A5"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "224C46C3CA0BEABD"
 				item: "thermal:machine_smelter"
@@ -83,6 +107,12 @@
 		{
 			dependencies: ["0A6BF89DDC8C8939"]
 			id: "156FF88FD0FF2210"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26B2851DA6E2E374"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "45AD59C45DE86429"
 				item: "ae2:smooth_sky_stone_block"
@@ -94,6 +124,12 @@
 		{
 			dependencies: ["0A6BF89DDC8C8939"]
 			id: "6647E74CCDC24B45"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33AD13EC6AF535B1"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0BDD45A74BBCD7AE"
 				item: "kubejs:rainbow"
@@ -105,6 +141,12 @@
 		{
 			dependencies: ["0A6BF89DDC8C8939"]
 			id: "08E0AEA5A6B4AA85"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56F75684A57DC4D9"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "29798377ADD92C29"
 				item: "minecraft:emerald"
@@ -116,6 +158,12 @@
 		{
 			dependencies: ["08E0AEA5A6B4AA85"]
 			id: "05E71FE3D27D51EB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "08040E4945D039AE"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "62EA59E67B1AAC39"
 				item: "projecte:low_covalence_dust"
@@ -127,6 +175,12 @@
 		{
 			dependencies: ["05E71FE3D27D51EB"]
 			id: "4EDF9BADC76A73FD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0BFC09F238DA6200"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "46DF60B3238BB373"
 				item: "minecraft:ender_pearl"
@@ -138,6 +192,12 @@
 		{
 			dependencies: ["05E71FE3D27D51EB"]
 			id: "13BBD52292F32026"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34624AA7829D4F76"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "09819A3C9DD1AA0F"
 				item: "minecraft:blaze_rod"
@@ -149,6 +209,12 @@
 		{
 			dependencies: ["05E71FE3D27D51EB"]
 			id: "42641592F0195E20"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "69E4CC07139DF310"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "64531BED23ECC1CF"
 				item: "minecraft:glowstone"
@@ -163,6 +229,12 @@
 				"13BBD52292F32026"
 			]
 			id: "608712AD3BE0963A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1654D39812CA09AF"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "650575E94C66053D"
 				item: "minecraft:ender_eye"
@@ -174,6 +246,12 @@
 		{
 			dependencies: ["608712AD3BE0963A"]
 			id: "69C9BEA84D475D0B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "171A63B7DC0669BA"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2375B64CE824690C"
 				item: {
@@ -220,6 +298,12 @@
 				"42641592F0195E20"
 			]
 			id: "03DA8C4DC2DD7916"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52EE537FF8F89B76"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6C7A19F7537F8E70"
 				item: "ironfurnaces:diamond_furnace"
@@ -231,6 +315,12 @@
 		{
 			dependencies: ["05E71FE3D27D51EB"]
 			id: "4E49256EF2EE1936"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "05A51C1272B4E241"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3AC68A0FBA67FCD4"
 				item: "mekanism:enrichment_chamber"
@@ -242,6 +332,12 @@
 		{
 			dependencies: ["75A3224F29831F43"]
 			id: "40EBEDC998F1D956"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4FCA98091F71F587"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "57CA156AE3374072"
 				item: "mekanism:atomic_disassembler"
@@ -253,6 +349,12 @@
 		{
 			dependencies: ["05E71FE3D27D51EB"]
 			id: "2BBA096AB4AC6DBA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "41D1DE676688BA99"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "401D506786F8C38F"
 				item: "ars_nouveau:relay_splitter"
@@ -264,6 +366,12 @@
 		{
 			dependencies: ["608712AD3BE0963A"]
 			id: "14F9521CC93B8BFD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3EBBF63BCA641433"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "64E74E1762C24B85"
 				item: "thermal:redstone_servo"
@@ -282,6 +390,12 @@
 				"{rod.c2.s1.8.description1}"
 			]
 			id: "09C031E51B076F27"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3940EDC28E05F854"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "55E06AD5FAAD971D"
 				item: "thermal:device_rock_gen"
@@ -293,6 +407,12 @@
 		{
 			dependencies: ["4E49256EF2EE1936"]
 			id: "45F0D2FBE377D665"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78AA9BA733CEA6A4"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "10B54461B9513CE5"
 				item: "kubejs:enriched_steel"
@@ -304,6 +424,12 @@
 		{
 			dependencies: ["45F0D2FBE377D665"]
 			id: "273C6CF75B03968E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C43145C96259216"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "49E3D7DA3B77BE4B"
 				item: "mekanism:ingot_steel"
@@ -315,6 +441,12 @@
 		{
 			dependencies: ["273C6CF75B03968E"]
 			id: "4147B57D6131E248"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "70B876F09F8C4BA9"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "67A5B9909F8E45FD"
 				item: "kubejs:steel_drill"
@@ -326,6 +458,12 @@
 		{
 			dependencies: ["4147B57D6131E248"]
 			id: "4204C0926AD07D2B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15385BF895DB5822"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "2F8E6A1121F032DD"
@@ -344,6 +482,12 @@
 		{
 			dependencies: ["4204C0926AD07D2B"]
 			id: "5ED201B88C0A6846"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "234FFDCDD6B39404"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2C827B6E04BBF86A"
 				item: "mekanism:metallurgic_infuser"
@@ -358,6 +502,12 @@
 				"4204C0926AD07D2B"
 			]
 			id: "2B63E50914AC452A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2342E479F048BE60"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "5C176F8E809483E0"
 				item: "thermal:machine_frame"
@@ -372,6 +522,12 @@
 				"2B63E50914AC452A"
 			]
 			id: "5800A428B70BAC22"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "73DB5ABF2DB3E129"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2A1D75FE72ADDD03"
 				item: "industrialforegoing:machine_frame_simple"
@@ -383,6 +539,12 @@
 		{
 			dependencies: ["5ED201B88C0A6846"]
 			id: "75A3224F29831F43"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "458AF8460C6D8E39"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "236C2AC186A5FEDB"
 				item: "kubejs:alloy_covalence"
@@ -398,6 +560,12 @@
 				"{rod.c2.s1.9.description1}"
 			]
 			id: "685262F38E29260D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "078939F06B0AB8C2"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "66C739D8456C75A4"
 				item: "thermal:copper_coin"
@@ -412,6 +580,12 @@
 				"2B63E50914AC452A"
 			]
 			id: "273D19C864C4D2A1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0DCEE053B85E0D80"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "26002F3EA056C3BE"
 				item: "thermal:machine_crucible"
@@ -423,6 +597,12 @@
 		{
 			dependencies: ["273D19C864C4D2A1"]
 			id: "0BE0FCCBB1D4790E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "241E9F74A86DD350"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6C28642D0A2DF8ED"
 				item: "thermal:ender_bucket"
@@ -437,6 +617,12 @@
 				"4E7518870FCC5718"
 			]
 			id: "04F321B79C49E80B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "083AAC61D31E7000"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "287D68A9FACF76F7"
@@ -455,6 +641,12 @@
 		{
 			dependencies: ["75A3224F29831F43"]
 			id: "4E7518870FCC5718"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "237E79BE7561279D"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7E309054FC79F413"
 				item: "kubejs:alloy_source"
@@ -478,6 +670,12 @@
 				}
 			}
 			id: "3F22F3064470D20B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43E540D2391C6D31"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "2F03572ADBDD00DC"
@@ -505,11 +703,19 @@
 				"318D8EC9ED527C09"
 			]
 			id: "555073CFD0346074"
-			rewards: [{
-				id: "13971A75A5E8C8ED"
-				item: "ifeu:heal_addon_6"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "13971A75A5E8C8ED"
+					item: "ifeu:heal_addon_6"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14B1473836920A63"
+					table_id: 6027752341186428952L
+					type: "random"
+				}
+			]
 			tasks: [
 				{
 					id: "742C0B65E539D75E"
@@ -549,6 +755,12 @@
 				}
 			}
 			id: "1DCAC7E10DD16871"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C1B3F45E49CAE99"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6FA22D3776125829"
 				title: "{rod.ftbp.tip}"
@@ -567,6 +779,12 @@
 				}
 			}
 			id: "0307CBE3F68C5B4D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "657BF124DFFBBE29"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "2CE86CF097203923"
@@ -588,6 +806,12 @@
 				"04F321B79C49E80B"
 			]
 			id: "4EF2FB0E9754289F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5AB092678035C3FE"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "0F0074A6D03BE37D"
@@ -606,6 +830,12 @@
 		{
 			dependencies: ["4EF2FB0E9754289F"]
 			id: "256259A635125683"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C860907D783F4A0"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6C26E28169DF0F8D"
 				item: "powah:steel_energized"
@@ -617,6 +847,12 @@
 		{
 			dependencies: ["256259A635125683"]
 			id: "1226633202CDF5A9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D613CA61987DEF1"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "09694DA4793410B6"
 				item: "industrialforegoing:fluid_extractor"
@@ -628,6 +864,12 @@
 		{
 			dependencies: ["7199E1E3519FB10C"]
 			id: "318D8EC9ED527C09"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "642DD87347D26A16"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "62952AF15F30209B"
 				item: "powah:dielectric_casing"
@@ -642,6 +884,12 @@
 				"0307CBE3F68C5B4D"
 			]
 			id: "496C75109DE6B49D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "07091FBEDF40E944"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "30605338988E6B80"
 				item: "ifeu:dragon_star"
@@ -656,6 +904,12 @@
 				"5A7C691F869E6CD9"
 			]
 			id: "5D8D8BEDD2F38BA5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26E8509806179D39"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "4914E690A37578A2"
 				item: "minecraft:nether_star"
@@ -670,6 +924,12 @@
 				"31E52FC589F5066B"
 			]
 			id: "7A40A8D333E28A4C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F214F78254A3BAA"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "4CD70401E75F4BB7"
 				item: "ifeu:empty_nether_star"
@@ -681,6 +941,12 @@
 		{
 			dependencies: ["1226633202CDF5A9"]
 			id: "31E52FC589F5066B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52918627BA404C42"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "1C28A647F08D1659"
 				item: "industrialforegoing:plastic"
@@ -693,6 +959,12 @@
 			dependencies: ["31E52FC589F5066B"]
 			hide_dependency_lines: true
 			id: "4A6887A6A8C5A21D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B383982B83A670B"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "510FA5F5FC073BED"
 				item: "ifeu:liquid_malic_acid_bucket"
@@ -707,6 +979,12 @@
 				"256259A635125683"
 			]
 			id: "7199E1E3519FB10C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2BDEDBF45A3ED5A3"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "7CBFB7185A02FA64"
@@ -725,11 +1003,19 @@
 		{
 			dependencies: ["496C75109DE6B49D"]
 			id: "5128DEC7A4281D04"
-			rewards: [{
-				id: "7B1BC20D3FDC70A0"
-				item: "ifeu:apple_addon_6"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7B1BC20D3FDC70A0"
+					item: "ifeu:apple_addon_6"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74F899D8A43BC985"
+					table_id: 6027752341186428952L
+					type: "random"
+				}
+			]
 			tasks: [
 				{
 					id: "626AC2970E895154"
@@ -753,6 +1039,12 @@
 		{
 			dependencies: ["5128DEC7A4281D04"]
 			id: "0CCD7D61E85D4E4D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "315FCAD6B91D2367"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3FA07389F2809CC9"
 				item: "minecraft:apple"
@@ -769,6 +1061,7 @@
 					count: 8
 					id: "344F1DC751B93F48"
 					item: "kubejs:stage_package"
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -790,6 +1083,12 @@
 		{
 			dependencies: ["496C75109DE6B49D"]
 			id: "7A0C77C1BBF2D7EA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "478DCDF053A05593"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "02F48B527A724D82"
 				item: {
@@ -809,6 +1108,12 @@
 		{
 			dependencies: ["7A0C77C1BBF2D7EA"]
 			id: "5E5B6E435886BCB4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5516FD28C8096CB5"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "1F462EE78EC0C4D5"
 				item: "minecraft:netherite_ingot"
@@ -820,6 +1125,12 @@
 		{
 			dependencies: ["496C75109DE6B49D"]
 			id: "6EF10F99FE2BFED4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C4254C3BDF3A1FD"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6F83961875AB8041"
 				item: "ifeu:dragon_star_essence_bucket"
@@ -831,6 +1142,12 @@
 		{
 			dependencies: ["318D8EC9ED527C09"]
 			id: "5A7C691F869E6CD9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C02D833A2B7950A"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "72D1EF1A32E8F03A"
@@ -849,6 +1166,12 @@
 		{
 			dependencies: ["5E5B6E435886BCB4"]
 			id: "2CEBF17B9A164207"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28507E14509A90A3"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3A5106FBF2CD6D26"
 				item: "ironfurnaces:netherite_furnace"

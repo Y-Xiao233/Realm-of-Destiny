@@ -988,6 +988,7 @@
 					count: 8
 					id: "5634C65BE9CAE2DA"
 					item: "kubejs:stage_package"
+					team_reward: true
 					type: "item"
 				}
 				{

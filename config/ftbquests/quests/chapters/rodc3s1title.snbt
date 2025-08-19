@@ -34,6 +34,12 @@
 					random_bonus: 16
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "4894421566C835D5"
+					table_id: 6027752341186428952L
+					type: "random"
+				}
 			]
 			tasks: [
 				{
@@ -75,6 +81,12 @@
 			dependencies: ["0B4191C8B1D75A98"]
 			description: [""]
 			id: "73DD8740B36F8F3D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7DA11E1F44C06627"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "099E70B68E1CDB90"
 				item: "mysticalagriculture:iron_essence"
@@ -86,6 +98,12 @@
 		{
 			dependencies: ["73DD8740B36F8F3D"]
 			id: "20E635A59CFAE332"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7DF2B4D364882820"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "62C1CD694ED05943"
 				item: "mekanism:alloy_infused"
@@ -98,6 +116,12 @@
 			dependencies: ["0B4191C8B1D75A98"]
 			description: [""]
 			id: "7D0AEE92EAA4518B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "692F579B72E07BA5"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6761EB214DFC4EBD"
 				item: "mysticalagriculture:diamond_essence"
@@ -109,6 +133,12 @@
 		{
 			dependencies: ["7D0AEE92EAA4518B"]
 			id: "130E428AD5E56449"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A07C1C59977F4BC"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "41ACC1B41FA1247C"
 				item: "actuallyadditions:diamatine_crystal_block"
@@ -123,6 +153,12 @@
 				"7B3F46026E3C7389"
 			]
 			id: "799F0B153EEF687A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42ED1DA052B11955"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3C748EA1459D0F75"
 				item: "mekanism:enriched_diamond"
@@ -134,6 +170,12 @@
 		{
 			dependencies: ["20E635A59CFAE332"]
 			id: "7B3F46026E3C7389"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35D218AF6D12B919"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "476AFC8873B10891"
 				item: {
@@ -155,6 +197,12 @@
 				"{rod.c3.s1.3.description1}"
 			]
 			id: "6A01421B9FA97470"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "487B143C5A8F806B"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7E02C663899A699C"
 				item: {
@@ -174,6 +222,12 @@
 				"{rod.c3.s1.3.description1}"
 			]
 			id: "3D434E721ED37BA6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75E347B4EC12AD67"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "486669D9D6D396DA"
 				item: "mekanism:alloy_reinforced"
@@ -185,6 +239,12 @@
 		{
 			dependencies: ["3D434E721ED37BA6"]
 			id: "4721809029031074"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "58EF2151EE476DDD"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "521746319F389C85"
 				item: "kubejs:recraft_charm"
@@ -194,92 +254,82 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["3D434E721ED37BA6"]
-			id: "4792AA929E0A3C3B"
-			tasks: [{
-				id: "2AED7ADC78CF8E09"
-				item: "anvilcraft:stamping_platform"
-				type: "item"
-			}]
-			x: 0.5d
-			y: -1.0d
-		}
-		{
 			dependencies: ["7B3F46026E3C7389"]
-			id: "53E8E15204CCD74E"
-			tasks: [{
-				id: "3B2B3E4DB0EBAB2A"
-				item: "minecraft:scaffolding"
-				type: "item"
-			}]
-			x: -0.5d
-			y: -1.0d
-		}
-		{
-			dependencies: [
-				"4792AA929E0A3C3B"
-				"53E8E15204CCD74E"
-			]
 			id: "39327C468FD508D4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7BF5271032C145F8"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0DA8785C9EE483E5"
 				item: "create:electron_tube"
 				type: "item"
 			}]
 			x: 0.0d
-			y: -2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["39327C468FD508D4"]
 			id: "4D414223C3BB0FBF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A16099EDB8B2B4C"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "36C571A0EC3DFD5F"
 				item: "create:mechanical_crafter"
 				type: "item"
 			}]
 			x: 0.0d
-			y: -3.0d
-		}
-		{
-			dependencies: [
-				"4792AA929E0A3C3B"
-				"53E8E15204CCD74E"
-			]
-			id: "297816BDBEF27425"
-			tasks: [{
-				id: "1512298A9E77AD1C"
-				item: "anvilcraft:magnet_ingot"
-				optional_task: true
-				type: "item"
-			}]
-			x: 1.5d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4D414223C3BB0FBF"]
 			id: "36D9525641F9308B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "108A02513F3A0012"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2078D420EA6B4A08"
 				item: "create:crushing_wheel"
 				type: "item"
 			}]
 			x: 0.0d
-			y: -4.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["36D9525641F9308B"]
 			id: "35A9105AF2967A57"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F9C0FC0C42E3A05"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0EF7088AB46A5DBC"
 				item: "kubejs:time_shard"
 				type: "item"
 			}]
 			x: 0.0d
-			y: -5.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["3D434E721ED37BA6"]
 			id: "4FE1A403985F882B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E42E4E4830063EC"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "526710CBABFFAF37"
@@ -323,22 +373,17 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["4FE1A403985F882B"]
-			id: "0B10A91E32ABE9C1"
-			tasks: [{
-				id: "0B53D857C69A9F13"
-				item: "anvilcraft:corrupted_beacon"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 1.0d
-		}
-		{
 			dependencies: [
 				"35A9105AF2967A57"
 				"4FE1A403985F882B"
 			]
 			id: "16EFA6D11578D87D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F896E1140E2C47F"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7A5889FCE862B086"
 				item: {
@@ -349,65 +394,41 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -5.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["4FE1A403985F882B"]
-			id: "5DD2C3A03C367111"
+			id: "23FB43F113CE6F13"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7148F5C723F3D704"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
-				id: "3FEDDB16A9AEF6D2"
-				item: "minecraft:experience_bottle"
+				id: "40DF490125BBBBB2"
+				item: "ars_nouveau:greater_experience_gem"
 				type: "item"
 			}]
 			x: 3.0d
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"5DD2C3A03C367111"
-				"0B10A91E32ABE9C1"
-			]
-			id: "23FB43F113CE6F13"
-			tasks: [{
-				id: "40DF490125BBBBB2"
-				item: "ars_nouveau:greater_experience_gem"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["0B10A91E32ABE9C1"]
+			dependencies: ["4FE1A403985F882B"]
 			id: "6E34A54308A50CDA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "013AB28C9856792F"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "20F618A110E215E5"
 				item: "mekanism:ingot_refined_obsidian"
 				type: "item"
 			}]
 			x: 5.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["6E34A54308A50CDA"]
-			id: "1B5E3C9BB277B023"
-			tasks: [{
-				id: "150B49A0368069FB"
-				item: "anvilcraft:royal_steel_ingot"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["1B5E3C9BB277B023"]
-			id: "1DE2E008EADCF79B"
-			tasks: [{
-				id: "54503EB3F95F4A38"
-				item: "anvilcraft:royal_anvil"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["6E34A54308A50CDA"]
@@ -421,6 +442,12 @@
 				"{rod.c3.s1.4.description3}"
 			]
 			id: "7C55B954EAAFF34A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02FEF41311B476BC"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "703BF356B1A2B383"
 				item: "mekanism:enriched_refined_obsidian"
@@ -432,6 +459,12 @@
 		{
 			dependencies: ["7C55B954EAAFF34A"]
 			id: "6D9B93A29E7C486B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4DDF113829A4CB71"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0FDFD896DFF90F12"
 				item: "mekanism:alloy_atomic"
@@ -443,6 +476,12 @@
 		{
 			dependencies: ["7C55B954EAAFF34A"]
 			id: "04FE7A94E5D9A7F1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C68CF00BB68C7DB"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "24FDBE3474BF6C1F"
 				item: "kubejs:medium_alloy_covalence"
@@ -454,6 +493,12 @@
 		{
 			dependencies: ["04FE7A94E5D9A7F1"]
 			id: "0C9D63593190C9E9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "173E4540D8A9A166"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "1A24466310098970"
 				item: "projecte:medium_covalence_dust"
@@ -465,6 +510,12 @@
 		{
 			dependencies: ["0C9D63593190C9E9"]
 			id: "2292456CC1D70BA3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "779A87337F506C29"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "709EF7E1D90DB662"
 				item: "thermal:iron_coin"
@@ -474,8 +525,14 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["0B10A91E32ABE9C1"]
+			dependencies: ["6E34A54308A50CDA"]
 			id: "26AD32FE769B30B3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "739FBEBE6868ABE8"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "761A6D599D3CA2DE"
 				item: {
@@ -490,11 +547,17 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6D9B93A29E7C486B"]
 			id: "006DE9A462DE2F89"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7FFF54C84AAF1E17"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "4C2D3E399197F211"
 				item: {
@@ -517,6 +580,12 @@
 		{
 			dependencies: ["0C9D63593190C9E9"]
 			id: "4A0846658E19F6F3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "026085F6483D6E02"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "1A5793813EDC93AB"
 				item: "mekanism:elite_tier_installer"
@@ -528,6 +597,12 @@
 		{
 			dependencies: ["6D9B93A29E7C486B"]
 			id: "38BD85F2BD1061C4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7253E30466C861A9"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "7865BF54831309D6"
@@ -564,6 +639,12 @@
 				"6D9B93A29E7C486B"
 			]
 			id: "1E144DDC64358D65"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E9D5A3AB6A83F61"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "5EB8804CC959A52A"
 				item: "mekanism:chemical_oxidizer"
@@ -573,9 +654,14 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["0B10A91E32ABE9C1"]
 			hide_dependency_lines: true
 			id: "0711A2FC78A551A4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "29111193C5E72277"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "566344BCCA240649"
 				item: "mekanism:reprocessed_fissile_fragment"
@@ -590,6 +676,12 @@
 				"0711A2FC78A551A4"
 			]
 			id: "24C5837F8012CD23"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "417514AAA6BEE27B"
+				table_id: 6027752341186428952L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3148282F2F87F733"
 				type: "checkmark"
@@ -609,6 +701,7 @@
 					count: 16
 					id: "7FF943C77F4AACB3"
 					item: "kubejs:stage_package"
+					team_reward: true
 					type: "item"
 				}
 				{

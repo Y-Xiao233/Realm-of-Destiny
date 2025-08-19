@@ -567,19 +567,6 @@ ServerEvents.recipes(event =>{
         "id": "scaffolding"
       },
       {
-        "output": "anvilcraft:stamping_platform",
-        "pattern": [
-          "ABA",
-          "A A",
-          "A A"
-        ],
-        "key": {
-          "A": "minecraft:iron_ingot",
-          "B": "mekanism:alloy_reinforced"
-        },
-        "id": "stamping_platform"
-      },
-      {
         "output": "experienceobelisk:cognitium_bucket",
         "pattern": [
           " A ",
@@ -778,8 +765,6 @@ var essence_inputs = [
 		"mysticalagriculture:bronze_essence",
 		"mysticalagriculture:zinc_essence",
 		"mysticalagriculture:uranium_essence",
-		"mysticalagriculture:tungsten_essence",
-		"mysticalagriculture:titanium_essence",
 		"mysticalagriculture:electrum_essence",
 		"mysticalagriculture:nickel_essence",
 		"mysticalagriculture:constantan_essence",
@@ -808,8 +793,6 @@ var essence_outputs = [
     "thermal:bronze_ingot",
     "create:zinc_ingot",
     "mekanism:ingot_uranium",
-    "anvilcraft:tungsten_ingot",
-    "anvilcraft:titanium_ingot",
     "alltheores:electrum_ingot",
     "thermal:nickel_ingot",
     "thermal:constantan_ingot",

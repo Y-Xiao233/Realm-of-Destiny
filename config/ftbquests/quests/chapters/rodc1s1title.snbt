@@ -53,11 +53,26 @@
 			]
 			icon: "ae2:creative_item_cell"
 			id: "5CE39C7A1FF95036"
-			rewards: [{
-				id: "5C2426D212D18524"
-				item: "sophisticatedbackpacks:netherite_backpack"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5C2426D212D18524"
+					item: "sophisticatedbackpacks:netherite_backpack"
+					type: "item"
+				}
+				{
+					id: "2024A4953D14FCEC"
+					item: {
+						Count: 1
+						id: "powah:battery_nitro"
+						tag: {
+							powah_tile_data: {
+								energy_stored_main_energy: 2000000000L
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 1.5d
 			subtitle: "{rod.c1.s1.1.subtitle}"
@@ -1043,6 +1058,7 @@
 					count: 4
 					id: "2F58BD8FD3AD0D2E"
 					item: "kubejs:stage_package"
+					team_reward: true
 					type: "item"
 				}
 				{
