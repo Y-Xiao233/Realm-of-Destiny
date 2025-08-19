@@ -37,6 +37,12 @@ ServerEvents.recipes(event =>{
             input:['minecraft:ender_pearl','minecraft:blaze_powder'],
             heated:"heated",
             id:"ender_eye"
+        },
+        {
+            output:['createutilities:void_steel_ingot'],
+            input:['minecraft:iron_ingot','mekanism:dust_obsidian'],
+            heated:"heated",
+            id:"void_steel_ingot"
         }
     ]
 

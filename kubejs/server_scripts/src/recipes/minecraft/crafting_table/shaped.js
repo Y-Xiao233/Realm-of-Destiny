@@ -718,6 +718,119 @@ ServerEvents.recipes(event =>{
           "B": "kubejs:creative_cell_housing"
         },
         "id": "creative_item_cell"
+      },
+      {
+        "output": "arseng:source_cell_housing",
+        "pattern": [
+          "ABA",
+          "BCB",
+          "DDD"
+        ],
+        "key": {
+          "A": "minecraft:glass",
+          "B": "ars_nouveau:manipulation_essence",
+          "C": "ae2:item_cell_housing",
+          "D": "ars_nouveau:source_gem"
+        },
+        "id": "source_cell_housing"
+      },
+      {
+        "output": "createutilities:void_motor",
+        "pattern": [
+          " A ",
+          " B ",
+          " C "
+        ],
+        "key": {
+          "A": "create:brass_ingot",
+          "B": "createutilities:void_casing",
+          "C": "create:shaft"
+        },
+        "id": "void_motor"
+      },
+      {
+        "output": "ae2:cell_component_1k",
+        "pattern": [
+          "ABA",
+          "BCB",
+          "DDD"
+        ],
+        "key": {
+          "A": "minecraft:glass",
+          "B": "ae2:fluix_crystal",
+          "C": "minecraft:white_dye",
+          "D": "ae2:certus_quartz_crystal"
+        },
+        "id": "cell_component_1k"
+      },
+      {
+        "output": "ae2:cell_component_4k",
+        "pattern": [
+          "ABA",
+          "BAB",
+          "ABA"
+        ],
+        "key": {
+          "A": "ae2:certus_quartz_crystal",
+          "B": "ae2:cell_component_1k"
+        },
+        "id": "cell_component_4k"
+      },
+      {
+        "output": "ae2:cell_component_16k",
+        "pattern": [
+          "ABA",
+          "BAB",
+          "ABA"
+        ],
+        "key": {
+          "A": "ae2:certus_quartz_crystal",
+          "B": "ae2:cell_component_4k"
+        },
+        "id": "cell_component_16k"
+      },
+      {
+        "output": "ae2:cell_component_64k",
+        "pattern": [
+          "ABA",
+          "BAB",
+          "ABA"
+        ],
+        "key": {
+          "A": "ae2:quartz_block",
+          "B": "ae2:cell_component_16k"
+        },
+        "id": "cell_component_64k"
+      },
+      {
+        "output": "ae2:cell_component_256k",
+        "pattern": [
+          "ABA",
+          "BAB",
+          "ABA"
+        ],
+        "key": {
+          "A": "ae2:quartz_block",
+          "B": "ae2:cell_component_64k"
+        },
+        "id": "cell_component_256k"
+      },
+      {
+        "output": "powah:thermo_generator_basic",
+        "pattern": [
+          "ABA",
+          "CDC",
+          "EFE"
+        ],
+        "key": {
+          "A": "powah:dielectric_paste",
+          "B": "minecraft:iron_ingot",
+          "C": "powah:capacitor_basic",
+          "D": "minecraft:crying_obsidian",
+          "E": "powah:thermoelectric_plate",
+          "F": "powah:thermo_generator_starter"
+        },
+        "id": "thermo_generator_basic"
       }
     ]
 

@@ -11262,19 +11262,19 @@
     },
     {
       "item": "kubejs:me_component_package",
-      "emc": 256
+      "emc": 32
     },
     {
       "item": "kubejs:module_package",
-      "emc": 128
+      "emc": 32
     },
     {
       "item": "kubejs:upgrade_package",
-      "emc": 128
+      "emc": 32
     },
     {
       "item": "kubejs:sfm_package",
-      "emc": 128
+      "emc": 32
     },
     {
       "item": "kubejs:tome2",

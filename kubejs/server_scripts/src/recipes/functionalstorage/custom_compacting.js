@@ -23,11 +23,6 @@ ServerEvents.recipes(event =>{
             id:"stack_upgrade"
         },
         {
-            higher:Item.of('hostilenetworks:data_model', '{data_model:{data:354,id:"hostilenetworks:blaze"}}'),
-            lower:Item.of('hostilenetworks:data_model', 16,'{data_model:{data:54,id:"hostilenetworks:blaze"}}'),
-            id:"blaze"
-        },
-        {
             higher:Item.of('mysticalagradditions:insanium_essence'),
             lower:Item.of('mekanism:pellet_antimatter',128),
             id:"insanium_essence"

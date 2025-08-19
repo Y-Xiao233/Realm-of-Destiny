@@ -388,7 +388,14 @@ ServerEvents.recipes(event =>{
         'appflux:fe_cell_housing',
         'mekanism:thermal_evaporation_block',
         'createcasing:chorium_ingot',
-        'mekanism_extras:infinite_tier_installer'
+        'mekanism_extras:infinite_tier_installer',
+        'arseng:source_cell_housing',
+        'minecraft:crying_obsidian',
+        'createutilities:void_motor',
+        'createutilities:void_steel_ingot',
+        'ars_nouveau:timer_spell_turret',
+        'ars_nouveau:spell_turret',
+        'powah:thermo_generator_basic'
     ]
 
     //根据配方id删除配方
@@ -831,7 +838,8 @@ ServerEvents.recipes(event =>{
         "thermal:machines/pulverizer/pulverizer_quartz_ore",
         "thermal:machines/smelter/smelter_quartz_ore",
         "actuallyadditions:crushing/nether_quartz_ore",
-        "thermal:furnace_1108568987"
+        "thermal:furnace_1108568987",
+        "appflux:transform/redstone_crystal"
     ]
 
     //根据配方类型删除配方

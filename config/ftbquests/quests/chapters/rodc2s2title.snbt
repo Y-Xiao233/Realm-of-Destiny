@@ -244,55 +244,6 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["608712AD3BE0963A"]
-			id: "69C9BEA84D475D0B"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "171A63B7DC0669BA"
-				table_id: 6027752341186428952L
-				type: "random"
-			}]
-			tasks: [{
-				id: "2375B64CE824690C"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "fluxnetworks:flux_plug"
-							}
-							{
-								Count: 1b
-								id: "fluxnetworks:flux_point"
-							}
-							{
-								Count: 1b
-								id: "fluxnetworks:basic_flux_storage"
-							}
-							{
-								Count: 1b
-								id: "fluxnetworks:herculean_flux_storage"
-							}
-							{
-								Count: 1b
-								id: "fluxnetworks:gargantuan_flux_storage"
-							}
-							{
-								Count: 1b
-								id: "fluxnetworks:flux_controller"
-							}
-						]
-					}
-				}
-				type: "item"
-			}]
-			title: "{rod.c2.s1.7.title}"
-			x: 5.5d
-			y: 0.5d
-		}
-		{
 			dependencies: [
 				"608712AD3BE0963A"
 				"42641592F0195E20"

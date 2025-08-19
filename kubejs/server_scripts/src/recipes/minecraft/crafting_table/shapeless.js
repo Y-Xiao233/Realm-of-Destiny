@@ -63,6 +63,16 @@ ServerEvents.recipes(event => {
             output:Item.of('appmek:chemical_storage_cell_1k', '{amts:[L;8000L],ic:8000L,keys:[{"#c":"appmek:chemical",amount:8000L,infuseTypeName:"mekanism:diamond",t:1b}]}').weakNBT(),
             input:['appmek:chemical_cell_housing','ae2:cell_component_1k','mekanism:enriched_diamond'],
             id:"chemical_cell_1k/diamond"
+        },
+        {
+            output:Item.of('ars_nouveau:timer_spell_turret'),
+            input:['ars_nouveau:basic_spell_turret','minecraft:clock'],
+            id:"timer_spell_turret"
+        },
+        {
+            output:Item.of('ars_nouveau:spell_turret'),
+            input:['ars_nouveau:basic_spell_turret','minecraft:blaze_rod','ars_nouveau:source_gem_block'],
+            id:"spell_turret"
         }
     ]
 

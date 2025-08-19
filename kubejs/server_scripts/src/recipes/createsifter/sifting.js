@@ -3,14 +3,14 @@ ServerEvents.recipes(event =>{
     const {sifting} = event.recipes.createsifter
     sifting(
         [
-            Item.of('ars_nouveau:magebloom_fiber').withChance(0.14),
-            Item.of('ars_nouveau:abjuration_essence').withChance(0.14),
+            Item.of('ars_nouveau:magebloom_fiber').withChance(0.34),
+            Item.of('ars_nouveau:abjuration_essence').withChance(0.34),
             Item.of('ars_nouveau:conjuration_essence').withChance(0.14),
-            Item.of('ars_nouveau:air_essence').withChance(0.14),
-            Item.of('ars_nouveau:earth_essence').withChance(0.14),
-            Item.of('ars_nouveau:manipulation_essence').withChance(0.14),
-            Item.of('ars_nouveau:fire_essence').withChance(0.14),
-            Item.of('ars_nouveau:water_essence').withChance(0.14),
+            Item.of('ars_nouveau:air_essence').withChance(0.34),
+            Item.of('ars_nouveau:earth_essence').withChance(0.34),
+            Item.of('ars_nouveau:manipulation_essence').withChance(0.34),
+            Item.of('ars_nouveau:fire_essence').withChance(0.34),
+            Item.of('ars_nouveau:water_essence').withChance(0.34),
             Item.of('ars_nouveau:magebloom').withChance(0.05)
         ],
         ['ae2:fluix_block','kubejs:fluix_mesh']

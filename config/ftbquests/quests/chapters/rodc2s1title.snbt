@@ -1032,6 +1032,28 @@
 			x: 10.5d
 			y: 5.0d
 		}
+		{
+			dependencies: ["270B26973B1994E2"]
+			id: "62635B4E77B45742"
+			tasks: [{
+				id: "732A5826AA2CB084"
+				item: "createutilities:void_motor"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["630CC61B472D21A0"]
+			id: "11534BE9110B37C6"
+			tasks: [{
+				id: "59951903B61BD926"
+				item: "powah:thermo_generator_basic"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
 	]
 	title: "{rod.c2.s1.title}"
 }

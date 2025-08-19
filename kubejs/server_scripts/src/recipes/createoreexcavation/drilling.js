@@ -12,7 +12,7 @@ ServerEvents.recipes(event =>{
 
     //data model
     //tier 6 54 354 1254
-    const tiers1 = [6,54]
+    const tiers1 = [54,354,1254]
     const entities1 = [
         "thermal/blizz",
         "witch",
@@ -22,7 +22,7 @@ ServerEvents.recipes(event =>{
     const items1 = []
     entities1.forEach(entity =>{
         tiers1.forEach(tier =>{
-            let chance = (2 * tier) / (tier * tier + 100)
+            let chance = (12 * tier) / (tier * tier)
             items1.push(Item.of('hostilenetworks:data_model', `{data_model:{data:${tier},id:"hostilenetworks:${entity}"}}`).withChance(chance))
         })
     })
