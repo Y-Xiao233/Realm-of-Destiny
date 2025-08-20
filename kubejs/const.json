@@ -650,7 +650,9 @@
 		"thermalendergy:endergy_upgrade_3",
 		"thermalendergy:resonant_catalyst_augment",
 		"thermalendergy:energy_nullifier_augment",
-		"everlastingabilities:ability_bottle"
+		"everlastingabilities:ability_bottle",
+		"ae2:quantum_link",
+		"ae2:quantum_ring"
     ],
     "packages":[
         "ae2:cell_component_1k",

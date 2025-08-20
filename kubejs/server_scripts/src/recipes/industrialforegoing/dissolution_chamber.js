@@ -49,6 +49,16 @@ ServerEvents.recipes(event =>{
             output_fluid:Fluid.of("ifeu:liquid_malic_acid",1000),
             time:800,
             id:"liquid_malic_acid_2"
+        },
+        {
+            output:'ifeu:empty_nether_star',
+            inputs:[
+                'minecraft:nether_star'
+            ],
+            input_fluid:Fluid.of("ifeu:liquid_dragon_breath",500),
+            output_fluid:Fluid.of("industrialforegoing:ether_gas",5000),
+            time:100,
+            id:"ether_gas"
         }
     ]
 

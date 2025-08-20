@@ -178,7 +178,9 @@ var s5 = [
 	"cagedmobs:looting_upgrade",
 	'thermal:upgrade_augment_3',
 	'functionalstorage:diamond_upgrade',
-	'appflux:flux_accessor'
+	'appflux:flux_accessor',
+	"ae2:quantum_link",
+	"ae2:quantum_ring"
 ]
 
 var s6 = [

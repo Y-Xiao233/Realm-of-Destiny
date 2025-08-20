@@ -1,11 +1,15 @@
 {
-	"entries": [
-		"thermalendergy:dynamo_fuel_nullifier_augment",
-		"thermalendergy:dynamo_consumption_nullifier_augment",
-		"thermalendergy:melodic_range_augment",
-		"thermalendergy:efficiency_nullifier_augment",
-		"thermalendergy:endergy_upgrade_3",
-		"thermalendergy:resonant_catalyst_augment",
-		"thermalendergy:energy_nullifier_augment"
-	]
+	"output": "powah:energizing_rod_spirited",
+	"pattern": [
+		" A ",
+		"BCB",
+		" D "
+	],
+	"key": {
+		"A": "mekanism:block_osmium",
+		"B": "powah:capacitor_spirited",
+		"C": "powah:dielectric_casing",
+		"D": "powah:energizing_rod_niotic"
+	},
+	"id": "energizing_rod_spirited"
 }

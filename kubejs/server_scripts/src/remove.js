@@ -396,7 +396,11 @@ ServerEvents.recipes(event =>{
         'ars_nouveau:timer_spell_turret',
         'ars_nouveau:spell_turret',
         'powah:thermo_generator_basic',
-        'ae2:crafting_accelerator'
+        'ae2:crafting_accelerator',
+        'powah:energizing_rod_basic',
+        'powah:energizing_rod_hardened',
+        'powah:energizing_rod_niotic',
+        'powah:energizing_rod_spirited'
     ]
 
     //根据配方id删除配方
@@ -840,7 +844,9 @@ ServerEvents.recipes(event =>{
         "thermal:machines/smelter/smelter_quartz_ore",
         "actuallyadditions:crushing/nether_quartz_ore",
         "thermal:furnace_1108568987",
-        "appflux:transform/redstone_crystal"
+        "appflux:transform/redstone_crystal",
+        "industrialforegoing:laser_drill_fluid/ether_gas",
+        'mekanism:infusion_conversion/refined_obsidian/from_dust'
     ]
 
     //根据配方类型删除配方

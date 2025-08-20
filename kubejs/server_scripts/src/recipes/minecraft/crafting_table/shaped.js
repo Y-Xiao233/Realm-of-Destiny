@@ -420,7 +420,7 @@ ServerEvents.recipes(event =>{
           " D "
         ],
         "key": {
-          "A": "mekanism:alloy_infused",
+          "A": 'kubejs:alloy_source',
           "B": "mekanism:energy_tablet",
           "C": "kubejs:alloy_covalence",
           "D": "create:brass_ingot"
@@ -435,7 +435,7 @@ ServerEvents.recipes(event =>{
           "ABA"
         ],
         "key": {
-          "A": "mekanism:alloy_infused",
+          "A": 'kubejs:alloy_source',
           "B": "create:brass_ingot",
           "C": "kubejs:alloy_covalence",
           "D": "powah:thermoelectric_plate"
@@ -831,10 +831,71 @@ ServerEvents.recipes(event =>{
           "F": "powah:thermo_generator_starter"
         },
         "id": "thermo_generator_basic"
+      },
+      {
+        "output": "powah:energizing_rod_basic",
+        "pattern": [
+          " A ",
+          "BCB",
+          " D "
+        ],
+        "key": {
+          "A": "mekanism:block_osmium",
+          "B": "powah:capacitor_basic",
+          "C": "powah:dielectric_casing",
+          "D": "powah:energizing_rod_starter"
+        },
+        "id": "energizing_rod_basic"
+      },
+      {
+        "output": "powah:energizing_rod_hardened",
+        "pattern": [
+          " A ",
+          "BCB",
+          " D "
+        ],
+        "key": {
+          "A": "mekanism:block_osmium",
+          "B": "powah:capacitor_hardened",
+          "C": "powah:dielectric_casing",
+          "D": "powah:energizing_rod_basic"
+        },
+        "id": "energizing_rod_hardened"
+      },
+      {
+        "output": "powah:energizing_rod_niotic",
+        "pattern": [
+          " A ",
+          "BCB",
+          " D "
+        ],
+        "key": {
+          "A": "mekanism:block_osmium",
+          "B": "powah:capacitor_niotic",
+          "C": "powah:dielectric_casing",
+          "D": "powah:energizing_rod_hardened"
+        },
+        "id": "energizing_rod_niotic"
+      },
+      {
+        "output": "powah:energizing_rod_spirited",
+        "pattern": [
+          " A ",
+          "BCB",
+          " D "
+        ],
+        "key": {
+          "A": "mekanism:block_osmium",
+          "B": "powah:capacitor_spirited",
+          "C": "powah:dielectric_casing",
+          "D": "powah:energizing_rod_niotic"
+        },
+        "id": "energizing_rod_spirited"
       }
     ]
 
     essences(essence_inputs,essence_outputs)
+    essences_copy(copy)
 
     /**
      * 
@@ -854,6 +915,24 @@ ServerEvents.recipes(event =>{
             "A": inputs[i]
           },
           "id": "essence/" + outputs[i].substring(outputs[i].indexOf(':') + 1)
+        })
+      }
+    }
+
+    function essences_copy(inputs){
+      for(let i = 0; i < inputs.length; i ++){
+        recipes.push({
+          "output": "64x " + inputs[i],
+          "pattern": [
+            "AAA",
+            "ABA",
+            "AAA"
+          ],
+          "key": {
+            "A": 'kubejs:medium_alloy_covalence',
+            "B": inputs[i]
+          },
+          "id": "essence_copy/" + inputs[i].substring(inputs[i].indexOf(':') + 1)
         })
       }
     }
@@ -926,4 +1005,11 @@ var essence_outputs = [
 		"thermal:lumium_ingot",
 		"thermal:niter_dust",
 		"alltheores:aluminum_ingot",
+]
+
+
+var copy = [
+  'mysticalagriculture:iron_essence',
+  'mysticalagriculture:diamond_essence',
+  'mysticalagriculture:nature_essence'
 ]
