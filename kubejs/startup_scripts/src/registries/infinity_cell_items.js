@@ -73,7 +73,8 @@ var s1 = [
 	"buildinggadgets2:gadget_exchanging",
 	"buildinggadgets2:gadget_building",
 	'buildinggadgets2:template_manager',
-	'ae2additions:me_wireless_transceiver'
+	'ae2additions:me_wireless_transceiver',
+	"everlastingabilities:ability_bottle"
 ]
 
 var s2 = [
@@ -146,7 +147,27 @@ var s4 = [
 	"ae2:engineering_processor_press",
 	"ae2:logic_processor_press",
 	"ae2:name_press",
-	"ae2:silicon_press"
+	"ae2:silicon_press",
+	"expatternprovider:ex_molecular_assembler",
+	"thermal:xp_storage_augment",
+	"thermal:rf_coil_augment",
+	"thermal:rf_coil_xfer_augment",
+	"thermal:rf_coil_storage_augment",
+	"thermal:item_filter_augment",
+	"thermal:fluid_tank_augment",
+	"thermal:machine_speed_augment",
+	"thermal:fluid_filter_augment",
+	"thermal:machine_efficiency_augment",
+	"thermal:dynamo_output_augment",
+	"thermal:machine_null_augment",
+	"thermal:machine_cycle_augment",
+	"thermal:machine_catalyst_augment",
+	"thermal:dynamo_fuel_augment",
+	"thermal:potion_duration_augment",
+	"thermal:potion_amplifier_augment",
+	"thermal:area_radius_augment",
+	"thermal:dynamo_throttle_augment",
+	"thermal:machine_output_augment"
 ]
 
 var s5 = [
@@ -183,7 +204,14 @@ var s6 = [
 
 var s7 = [
 	'projectexpansion:transmutation_interface',
-	'projectexpansion:final_emc_link'
+	'projectexpansion:final_emc_link',
+	"thermalendergy:dynamo_fuel_nullifier_augment",
+	"thermalendergy:dynamo_consumption_nullifier_augment",
+	"thermalendergy:melodic_range_augment",
+	"thermalendergy:efficiency_nullifier_augment",
+	"thermalendergy:endergy_upgrade_3",
+	"thermalendergy:resonant_catalyst_augment",
+	"thermalendergy:energy_nullifier_augment"
 ]
 
 var d1 = [

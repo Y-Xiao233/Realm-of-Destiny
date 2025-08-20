@@ -1,0 +1,541 @@
+{
+	id: "7B2E0989CAEBA574"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:effect/haste"
+					}]
+				}
+			}
+			weight: 40.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:effect/jump_boost"
+					}]
+				}
+			}
+			weight: 40.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:special/step_assist"
+					}]
+				}
+			}
+			weight: 40.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:effect/speed"
+					}]
+				}
+			}
+			weight: 40.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:special/magnetize"
+					}]
+				}
+			}
+			weight: 30.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:effect/fire_resistance"
+					}]
+				}
+			}
+			weight: 30.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/knockback"
+					}]
+				}
+			}
+			weight: 30.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:special/power_stare"
+					}]
+				}
+			}
+			weight: 30.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:effect/nausea"
+					}]
+				}
+			}
+			weight: 30.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:effect/invisibility"
+					}]
+				}
+			}
+			weight: 30.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:effect/night_vision"
+					}]
+				}
+			}
+			weight: 30.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:effect/mining_fatigue"
+					}]
+				}
+			}
+			weight: 30.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:effect/dolphins_grace"
+					}]
+				}
+			}
+			weight: 30.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:effect/slowness"
+					}]
+				}
+			}
+			weight: 30.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:effect/strength"
+					}]
+				}
+			}
+			weight: 30.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:effect/water_breathing"
+					}]
+				}
+			}
+			weight: 30.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:special/bonemealer"
+					}]
+				}
+			}
+			weight: 30.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:effect/slow_falling"
+					}]
+				}
+			}
+			weight: 30.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/attack_steroids"
+					}]
+				}
+			}
+			weight: 30.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:effect/glowing"
+					}]
+				}
+			}
+			weight: 30.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:special/fertility"
+					}]
+				}
+			}
+			weight: 30.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:effect/absorption"
+					}]
+				}
+			}
+			weight: 25.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:effect/conduit_power"
+					}]
+				}
+			}
+			weight: 25.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:effect/blindness"
+					}]
+				}
+			}
+			weight: 25.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:effect/levitation"
+					}]
+				}
+			}
+			weight: 25.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:effect/hunger"
+					}]
+				}
+			}
+			weight: 25.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:effect/resistance"
+					}]
+				}
+			}
+			weight: 25.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:effect/regeneration"
+					}]
+				}
+			}
+			weight: 25.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/heart_gainer"
+					}]
+				}
+			}
+			weight: 25.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:effect/luck"
+					}]
+				}
+			}
+			weight: 25.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:effect/unluck"
+					}]
+				}
+			}
+			weight: 25.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:effect/weakness"
+					}]
+				}
+			}
+			weight: 25.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:effect/darkness"
+					}]
+				}
+			}
+			weight: 25.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:attribute_modifier/hidden_chestplate"
+					}]
+				}
+			}
+			weight: 25.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:effect/bad_omen_self"
+					}]
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:effect/bad_omen"
+					}]
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:effect/wither"
+					}]
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:effect/saturation"
+					}]
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:effect/poison"
+					}]
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:effect/hero_of_the_village"
+					}]
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "everlastingabilities:ability_totem"
+				tag: {
+					"everlastingabilities:abilityStoreStack": [{
+						level: 1
+						name: "everlastingabilities:special/flight"
+					}]
+				}
+			}
+			weight: 20.0f
+		}
+	]
+	title: "{rod.reward_table.totem}"
+}

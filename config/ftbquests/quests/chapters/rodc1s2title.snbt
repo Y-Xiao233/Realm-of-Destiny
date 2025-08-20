@@ -146,12 +146,26 @@
 				"{image:kubejs:textures/ftbq/paint.png width:100 height:100 align:center}"
 			]
 			id: "49C1420FA9B6F1B3"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "46DA7089FDA134B8"
-				table_id: 6027752341186428952L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "46DA7089FDA134B8"
+					table_id: 6027752341186428952L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0AAF50EC2A21B9C9"
+					table_id: 579267573053731165L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58458A50742F699E"
+					table_id: 8876042403013436788L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "1FCC377DDB3DF9E8"
 				item: {
@@ -234,12 +248,26 @@
 			description: ["{rod.c1.s2.3.description0}"]
 			hide_dependency_lines: true
 			id: "0E46B9B58861A547"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2FF13EF7E60B591D"
-				table_id: 6027752341186428952L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2FF13EF7E60B591D"
+					table_id: 6027752341186428952L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7732ADB1DB506270"
+					table_id: 579267573053731165L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44053FC4835FD34A"
+					table_id: 8876042403013436788L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "6D1DD2C34CB29DAF"
 				item: "minecraft:cobblestone"
@@ -554,6 +582,18 @@
 					item: "kubejs:infinity_cell_3"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "3DE3DE7B4B1BC998"
+					table_id: 579267573053731165L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7878CAEBFB0357ED"
+					table_id: 8876042403013436788L
+					type: "random"
+				}
 			]
 			subtitle: "{rod.c1.s2.6.subtitle}"
 			tasks: [
@@ -638,12 +678,26 @@
 		{
 			dependencies: ["658F01E0859AEEA6"]
 			id: "7EE692D946671772"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7A4A1CF7892529FF"
-				table_id: 6027752341186428952L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7A4A1CF7892529FF"
+					table_id: 6027752341186428952L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51CD83A617F0D92F"
+					table_id: 579267573053731165L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "65097A3FD42CAAB9"
+					table_id: 8876042403013436788L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "69E9622703B86739"
 				item: "minecraft:dirt"
@@ -712,12 +766,26 @@
 				"73B178B198B98AA1"
 			]
 			id: "73895FC6E2BD9C7A"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "38B4D3E989D85D92"
-				table_id: 6027752341186428952L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "38B4D3E989D85D92"
+					table_id: 6027752341186428952L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "056914C00E5C4C25"
+					table_id: 579267573053731165L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "39DDFD24C848A8C1"
+					table_id: 8876042403013436788L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "141CE3D04C86AB6C"
 				item: "minecraft:redstone"
@@ -904,12 +972,26 @@
 		{
 			dependencies: ["071305202486F8F7"]
 			id: "4D7837420052277D"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5F0A1B31F4FD872B"
-				table_id: 6027752341186428952L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5F0A1B31F4FD872B"
+					table_id: 6027752341186428952L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A7DDC634EA7F1DA"
+					table_id: 579267573053731165L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A4D48F9A761BDE7"
+					table_id: 8876042403013436788L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "1EB54147AD8B8EFC"
 				item: "minecraft:copper_block"
@@ -973,12 +1055,26 @@
 		{
 			dependencies: ["73895FC6E2BD9C7A"]
 			id: "2B0031F7188AB5BB"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6DFCB9767FD702AB"
-				table_id: 6027752341186428952L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6DFCB9767FD702AB"
+					table_id: 6027752341186428952L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "33C9CFDB084A0E73"
+					table_id: 579267573053731165L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25A2C399CB9BAFF8"
+					table_id: 8876042403013436788L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "62F7171ED3DC38A0"
 				item: "actuallyadditions:atomic_reconstructor"
@@ -990,12 +1086,26 @@
 		{
 			dependencies: ["2B0031F7188AB5BB"]
 			id: "1185BBA65ED1F092"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "210B5CE2C674FFB1"
-				table_id: 6027752341186428952L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "210B5CE2C674FFB1"
+					table_id: 6027752341186428952L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2325BDC0301753EC"
+					table_id: 579267573053731165L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "69522ED270160C4F"
+					table_id: 8876042403013436788L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "7414DDEB82303FB1"
 				item: "ifeu:infuser"
@@ -1108,12 +1218,26 @@
 		{
 			dependencies: ["07161EC9196F77FA"]
 			id: "3A447838F5CD0FA8"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7501AA745459F2C5"
-				table_id: 6027752341186428952L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7501AA745459F2C5"
+					table_id: 6027752341186428952L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "76FE3BCFF70B657C"
+					table_id: 579267573053731165L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6739DFD86F0D20C3"
+					table_id: 8876042403013436788L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "7DB059790C3D0EDA"
 				item: "minecraft:iron_golem_spawn_egg"

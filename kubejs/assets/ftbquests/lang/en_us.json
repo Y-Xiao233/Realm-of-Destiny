@@ -155,5 +155,7 @@
     "rod.c3.s1.4.description3": "&4If unable to input to pots, try relogging or restarting",
     "rod.c3.s1.5.title": "Fission Fuel",
     "rod.c3.s2.title": "Inflation",
-    "rod.c3.s3.title": "<wave><rainb>Creative!</rainb></wave>"
+    "rod.c3.s3.title": "<wave><rainb>Creative!</rainb></wave>",
+    "rod.reward_table.totem":"Totem Reward",
+    "rod.reward_table.experience":"Experience Reward"
 }

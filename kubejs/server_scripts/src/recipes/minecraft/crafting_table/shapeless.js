@@ -73,6 +73,11 @@ ServerEvents.recipes(event => {
             output:Item.of('ars_nouveau:spell_turret'),
             input:['ars_nouveau:basic_spell_turret','minecraft:blaze_rod','ars_nouveau:source_gem_block'],
             id:"spell_turret"
+        },
+        {
+            output:Item.of('ae2:crafting_accelerator'),
+            input:['ae2:crafting_unit','mekanism:advanced_tier_installer'],
+            id:"crafting_accelerator"
         }
     ]
 

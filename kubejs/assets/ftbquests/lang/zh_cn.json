@@ -155,5 +155,7 @@
 	"rod.c3.s1.4.description3": "&4若无法输入至盆栽,请尝试退出存档重新进入或重启游戏",
 	"rod.c3.s1.5.title": "裂变燃料",
 	"rod.c3.s2.title": "通货膨胀",
-	"rod.c3.s3.title": "<wave><rainb>创造!</rainb></wave>"
+	"rod.c3.s3.title": "<wave><rainb>创造!</rainb></wave>",
+	"rod.reward_table.totem":"图腾奖励",
+	"rod.reward_table.experience":"经验奖励"
 }

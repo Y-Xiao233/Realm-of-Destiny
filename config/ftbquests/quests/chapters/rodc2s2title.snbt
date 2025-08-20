@@ -24,12 +24,26 @@
 		{
 			dependencies: ["7EC22F836EAF340F"]
 			id: "567E2264B7640DA5"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1C9D686CF5687957"
-				table_id: 6027752341186428952L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1C9D686CF5687957"
+					table_id: 6027752341186428952L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F2E05E6EE3DE69F"
+					table_id: 579267573053731165L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "203FF92C154EE992"
+					table_id: 8876042403013436788L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "07514D7CA3386018"
 				item: "industrialforegoing:machine_frame_pity"
@@ -341,12 +355,26 @@
 				"{rod.c2.s1.8.description1}"
 			]
 			id: "09C031E51B076F27"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3940EDC28E05F854"
-				table_id: 6027752341186428952L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3940EDC28E05F854"
+					table_id: 6027752341186428952L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18B5D1924CF0AD94"
+					table_id: 579267573053731165L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6F9C4748FA6E221E"
+					table_id: 8876042403013436788L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "55E06AD5FAAD971D"
 				item: "thermal:device_rock_gen"
@@ -433,12 +461,26 @@
 		{
 			dependencies: ["4204C0926AD07D2B"]
 			id: "5ED201B88C0A6846"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "234FFDCDD6B39404"
-				table_id: 6027752341186428952L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "234FFDCDD6B39404"
+					table_id: 6027752341186428952L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7DF2F80049CEEBC6"
+					table_id: 579267573053731165L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0CBD4A7F4ADD1B77"
+					table_id: 8876042403013436788L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "2C827B6E04BBF86A"
 				item: "mekanism:metallurgic_infuser"
@@ -473,12 +515,26 @@
 				"2B63E50914AC452A"
 			]
 			id: "5800A428B70BAC22"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "73DB5ABF2DB3E129"
-				table_id: 6027752341186428952L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "73DB5ABF2DB3E129"
+					table_id: 6027752341186428952L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0554FCF0A9AF391B"
+					table_id: 579267573053731165L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "33AC103A0B265A6D"
+					table_id: 8876042403013436788L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "2A1D75FE72ADDD03"
 				item: "industrialforegoing:machine_frame_simple"
@@ -815,12 +871,26 @@
 		{
 			dependencies: ["7199E1E3519FB10C"]
 			id: "318D8EC9ED527C09"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "642DD87347D26A16"
-				table_id: 6027752341186428952L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "642DD87347D26A16"
+					table_id: 6027752341186428952L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F46A0E1F0519AF7"
+					table_id: 579267573053731165L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B883E5DF666F0E8"
+					table_id: 8876042403013436788L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "62952AF15F30209B"
 				item: "powah:dielectric_casing"
@@ -835,12 +905,26 @@
 				"0307CBE3F68C5B4D"
 			]
 			id: "496C75109DE6B49D"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "07091FBEDF40E944"
-				table_id: 6027752341186428952L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "07091FBEDF40E944"
+					table_id: 6027752341186428952L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "456A8B2310163E62"
+					table_id: 579267573053731165L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49FC4C654DA214D4"
+					table_id: 8876042403013436788L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "30605338988E6B80"
 				item: "ifeu:dragon_star"
@@ -1117,12 +1201,26 @@
 		{
 			dependencies: ["5E5B6E435886BCB4"]
 			id: "2CEBF17B9A164207"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "28507E14509A90A3"
-				table_id: 6027752341186428952L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "28507E14509A90A3"
+					table_id: 6027752341186428952L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3ECDDA978E66E589"
+					table_id: 579267573053731165L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2188EB9742F89C21"
+					table_id: 8876042403013436788L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "3A5106FBF2CD6D26"
 				item: "ironfurnaces:netherite_furnace"

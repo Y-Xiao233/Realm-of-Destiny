@@ -395,7 +395,8 @@ ServerEvents.recipes(event =>{
         'createutilities:void_steel_ingot',
         'ars_nouveau:timer_spell_turret',
         'ars_nouveau:spell_turret',
-        'powah:thermo_generator_basic'
+        'powah:thermo_generator_basic',
+        'ae2:crafting_accelerator'
     ]
 
     //根据配方id删除配方

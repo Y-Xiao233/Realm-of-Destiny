@@ -1,12 +1,11 @@
 {
 	"entries": [
-		"ae2:inscriber",
-		"advanced_ae:quantum_processor_press",
-		"appflux:energy_processor_press",
-		"ae2:calculation_processor_press",
-		"ae2:engineering_processor_press",
-		"ae2:logic_processor_press",
-		"ae2:name_press",
-		"ae2:silicon_press"
+		"thermalendergy:dynamo_fuel_nullifier_augment",
+		"thermalendergy:dynamo_consumption_nullifier_augment",
+		"thermalendergy:melodic_range_augment",
+		"thermalendergy:efficiency_nullifier_augment",
+		"thermalendergy:endergy_upgrade_3",
+		"thermalendergy:resonant_catalyst_augment",
+		"thermalendergy:energy_nullifier_augment"
 	]
 }

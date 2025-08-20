@@ -170,12 +170,26 @@
 		{
 			dependencies: ["20E635A59CFAE332"]
 			id: "7B3F46026E3C7389"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "35D218AF6D12B919"
-				table_id: 6027752341186428952L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "35D218AF6D12B919"
+					table_id: 6027752341186428952L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "415514012D9F1602"
+					table_id: 8876042403013436788L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C6EEAF287A808CE"
+					table_id: 579267573053731165L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "476AFC8873B10891"
 				item: {
@@ -324,12 +338,26 @@
 		{
 			dependencies: ["3D434E721ED37BA6"]
 			id: "4FE1A403985F882B"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3E42E4E4830063EC"
-				table_id: 6027752341186428952L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3E42E4E4830063EC"
+					table_id: 6027752341186428952L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "21559C9620AD5631"
+					table_id: 8876042403013436788L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3FB12E90D24D2F52"
+					table_id: 579267573053731165L
+					type: "random"
+				}
+			]
 			tasks: [
 				{
 					id: "526710CBABFFAF37"
@@ -552,12 +580,26 @@
 		{
 			dependencies: ["6D9B93A29E7C486B"]
 			id: "006DE9A462DE2F89"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7FFF54C84AAF1E17"
-				table_id: 6027752341186428952L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7FFF54C84AAF1E17"
+					table_id: 6027752341186428952L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1290593C6118F343"
+					table_id: 8876042403013436788L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "21A582451BDC5338"
+					table_id: 579267573053731165L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "4C2D3E399197F211"
 				item: {
@@ -654,14 +696,29 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["6E34A54308A50CDA"]
 			hide_dependency_lines: true
 			id: "0711A2FC78A551A4"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "29111193C5E72277"
-				table_id: 6027752341186428952L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "29111193C5E72277"
+					table_id: 6027752341186428952L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "634B0CD18A261E18"
+					table_id: 8876042403013436788L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "28AEBCAE75E55790"
+					table_id: 579267573053731165L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "566344BCCA240649"
 				item: "mekanism:reprocessed_fissile_fragment"

@@ -8,6 +8,13 @@ ServerEvents.recipes(event =>{
             chance:0.01,
             result:'kubejs:empty_block',
             id:"energized_fluid"
+        },
+        {
+            output:Fluid.of('industrialforegoing:latex',10),
+            input:'minecraft:oak_log',
+            chance:0.01,
+            result:'minecraft:air',
+            id:"latex"
         }
     ]
 

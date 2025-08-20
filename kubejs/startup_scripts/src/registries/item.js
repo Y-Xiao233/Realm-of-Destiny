@@ -1,3 +1,5 @@
+const $ItemMekanismPaxel = Java.loadClass("mekanism.tools.common.item.ItemMekanismPaxel")
+
 StartupEvents.registry("item",event =>{
     //定义简单物品
     const simple_item = [
