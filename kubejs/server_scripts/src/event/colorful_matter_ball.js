@@ -1,4 +1,4 @@
-const { $CompoundTag } = require("packages/net/minecraft/nbt/$CompoundTag")
+const $CompoundTag = Java.loadClass("net.minecraft.nbt.CompoundTag")
 
 function getUsedHand(player){
     const ball = "kubejs:colorful_matter_ball"

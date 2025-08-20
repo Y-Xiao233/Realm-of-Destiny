@@ -400,7 +400,9 @@ ServerEvents.recipes(event =>{
         'powah:energizing_rod_basic',
         'powah:energizing_rod_hardened',
         'powah:energizing_rod_niotic',
-        'powah:energizing_rod_spirited'
+        'powah:energizing_rod_spirited',
+        'powah:energizing_rod_blazing',
+        'trashcans:item_trash_can'
     ]
 
     //根据配方id删除配方
@@ -846,7 +848,8 @@ ServerEvents.recipes(event =>{
         "thermal:furnace_1108568987",
         "appflux:transform/redstone_crystal",
         "industrialforegoing:laser_drill_fluid/ether_gas",
-        'mekanism:infusion_conversion/refined_obsidian/from_dust'
+        'mekanism:infusion_conversion/refined_obsidian/from_dust',
+        "entangled:block"
     ]
 
     //根据配方类型删除配方

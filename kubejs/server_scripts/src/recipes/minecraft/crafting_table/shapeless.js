@@ -84,6 +84,12 @@ ServerEvents.recipes(event => {
     recipes.forEach(recipe =>{
         event.shapeless(recipe.output,recipe.input).id(id_prefix+recipe.id)
     })
+
+        meshes.forEach(mesh =>{
+        let id = mesh.id
+        console.log(id_prefix + "mesh_unbreakable/" + id.substring(id.indexOf(":") + 1))
+        event.shapeless(mesh.enchant('kubejs:mesh_unbreakable', 1),[mesh,Item.of('minecraft:enchanted_book').enchant('kubejs:mesh_unbreakable', 1).weakNBT()]).id(id_prefix + "mesh_unbreakable/" + id.substring(id.indexOf(":") + 1))
+    })
 })
 const values = [
     [Item.of('ifeu:dragon_star'),5,80],
@@ -97,6 +103,11 @@ const packages = [
     'kubejs:upgrade_package',
     'kubejs:module_package',
     "kubejs:creative_housing_package"
+]
+
+const meshes = [
+    Item.of('kubejs:fluix_mesh'),
+    Item.of('kubejs:infused_mesh')
 ]
 ServerEvents.recipes(event =>{
     const id_prefix = 'realm_of_destiny:recipes/minecraft/crafting_table/shapeless/stage_package/'

@@ -1,6 +1,6 @@
 const $Mob = Java.loadClass("net.minecraft.world.entity.Mob")
 
-const r = 10, time = 200
+const r = 10, time = 800
 ItemEvents.rightClicked('tiab:time_in_a_bottle',event =>{
     const {hand, player, level, server} = event
     if(hand.name() !== "MAIN_HAND") return
@@ -14,7 +14,7 @@ ItemEvents.rightClicked('tiab:time_in_a_bottle',event =>{
     var found = false
     if(entities == null || entities.isEmpty()){
         player.tell(Text.translate("message.rod.not_found").red())
-        player.getCooldowns().addCooldown(player.mainHandItem.getIdLocation(),200)
+        player.getCooldowns().addCooldown(player.mainHandItem.getIdLocation(),time)
         return
     }
 
@@ -40,7 +40,7 @@ ItemEvents.rightClicked('tiab:time_in_a_bottle',event =>{
     if(!found){
         player.tell(Text.translate("message.rod.not_found").red())
     }
-    player.getCooldowns().addCooldown(player.mainHandItem.getIdLocation(),200)
+    player.getCooldowns().addCooldown(player.mainHandItem.getIdLocation(),time)
 })
 
 

@@ -9,7 +9,7 @@ ServerEvents.recipes(event =>{
             Item.of('ars_nouveau:air_essence').withChance(0.34),
             Item.of('ars_nouveau:earth_essence').withChance(0.34),
             Item.of('ars_nouveau:manipulation_essence').withChance(0.34),
-            Item.of('ars_nouveau:fire_essence').withChance(0.34),
+            Item.of('ars_nouveau:fire_essence',3).withChance(0.74),
             Item.of('ars_nouveau:water_essence').withChance(0.34),
             Item.of('ars_nouveau:magebloom').withChance(0.05)
         ],

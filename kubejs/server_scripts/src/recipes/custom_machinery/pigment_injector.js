@@ -1,5 +1,3 @@
-const { $CompoundTag } = require("packages/net/minecraft/nbt/$CompoundTag")
-
 /**
  * 
  * @param {$CompoundTag} nbt 

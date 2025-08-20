@@ -5,7 +5,7 @@ ServerEvents.recipes(event =>{
         {
             gas:{"gas":"mekanism:fissile_fuel","amount":1},
             output:{"gas":"mekanism:antimatter","amount":1},
-            heat:0.000001,
+            heat:1,
             id:`${id_prefix}antimatter`
         }]
 

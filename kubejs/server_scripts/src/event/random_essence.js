@@ -123,7 +123,7 @@ ItemEvents.rightClicked('kubejs:random_essence',event =>{
 	}else{
 		e = Item.of(random[i])
 		c = Math.floor(Math.random() * e.getMaxStackSize())
-		c = Math.max(c,24)
+		c = 48
 	}
     if(player.isFake()){
         let itemEntity = player.block.createEntity("item")

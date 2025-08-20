@@ -1,4 +1,4 @@
-const { $ChatFormatting } = require("packages/net/minecraft/$ChatFormatting")
+const $ChatFormatting = Java.loadClass("net.minecraft.ChatFormatting")
 
 const path = "./kubejs/const.json"
 const tooltips_jei_information = readConst(path,"tooltips_jei_information")

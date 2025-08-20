@@ -48,9 +48,9 @@ StartupEvents.registry("item",event =>{
 
 
 
-    event.create("fluix_mesh","createsifter:mesh").maxDamage(128)
-    event.create("source_mesh","createsifter:mesh").tooltip(Text.translate("tooltip.kubejs.source_mesh0")).glow(true).rarity("epic")
-    event.create("infused_mesh","createsifter:mesh").maxDamage(128)
+    event.create("fluix_mesh","createsifter:mesh").maxDamage(1280).tag('createsifter:meshes')
+    event.create("source_mesh","createsifter:mesh").tag('createsifter:meshes').tooltip(Text.translate("tooltip.kubejs.source_mesh0")).glow(true).rarity("epic")
+    event.create("infused_mesh","createsifter:mesh").maxDamage(1280).tag('createsifter:meshes')
 
     const types = [["speed","speed"],["input_chance","input"],["output_chance","output"]]
     types.forEach(([type,id]) =>{

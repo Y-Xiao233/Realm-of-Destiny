@@ -1,15 +1,14 @@
 {
-	"output": "powah:energizing_rod_spirited",
+	"output": "rod:random_essence_producer",
 	"pattern": [
-		" A ",
+		"ABA",
 		"BCB",
-		" D "
+		"ABA"
 	],
 	"key": {
-		"A": "mekanism:block_osmium",
-		"B": "powah:capacitor_spirited",
-		"C": "powah:dielectric_casing",
-		"D": "powah:energizing_rod_niotic"
+		"A": "ifeu:dragon_star",
+		"B": "powah:dielectric_casing",
+		"C": "industrialforegoing:machine_frame_simple"
 	},
-	"id": "energizing_rod_spirited"
+	"id": "random_essence_producer"
 }

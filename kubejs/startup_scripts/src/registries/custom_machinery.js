@@ -3,7 +3,7 @@ Platform.getInfo('rod').name = 'Realm of Destiny'
 StartupEvents.registry("block", (event) => {
     const custom_machinerys = [
         'rod:paint_generator',
-        "rod:pigment_injector"
+        "rod:random_essence_producer"
     ]
 
     custom_machinerys.forEach(custom_machinery =>{

@@ -7,8 +7,8 @@ ServerEvents.recipes(event =>{
             id:"lithium"
         },
         {
-            output:Fluid.of("starbunclemania:source_fluid",10),
-            input:Fluid.of("mekanism:brine",10),
+            output:Fluid.of("mekanism:brine",10),
+            input:Fluid.of("starbunclemania:source_fluid",10),
             id:"brine"
         }
     ]

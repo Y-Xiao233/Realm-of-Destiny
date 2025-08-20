@@ -1,4 +1,4 @@
-const { $ForgeRegistries } = require("packages/net/minecraftforge/registries/$ForgeRegistries")
+const $ForgeRegistries = Java.loadClass("net.minecraftforge.registries.ForgeRegistries")
 
 ServerEvents.recipes(event =>{
     const id_prefix = 'realm_of_destiny:recipes/minecraft/crafting_table/shaped/'
@@ -891,6 +891,63 @@ ServerEvents.recipes(event =>{
           "D": "powah:energizing_rod_niotic"
         },
         "id": "energizing_rod_spirited"
+      },
+      {
+        "output": "powah:energizing_rod_blazing",
+        "pattern": [
+          " A ",
+          "BCB",
+          " D "
+        ],
+        "key": {
+          "A": "mekanism:block_osmium",
+          "B": "powah:capacitor_blazing",
+          "C": "powah:dielectric_casing",
+          "D": "powah:energizing_rod_hardened"
+        },
+        "id": "energizing_rod_blazing"
+      },
+      {
+        "output": "trashcans:item_trash_can",
+        "pattern": [
+          "AAA",
+          "BCB",
+          "BBB"
+        ],
+        "key": {
+          "A": '#forge:stone',
+          "B": '#forge:cobblestone',
+          "C": "ae2:cell_component_1k"
+        },
+        "id": "item_trash_can"
+      },
+      {
+        "output": "entangled:block",
+        "pattern": [
+          "ABA",
+          "BCB",
+          "ABA"
+        ],
+        "key": {
+          "A": "minecraft:ender_pearl",
+          "B": "minecraft:obsidian",
+          "C": "ae2:cell_component_4k"
+        },
+        "id": "block"
+      },
+      {
+        "output": "rod:random_essence_producer",
+        "pattern": [
+          "ABA",
+          "BCB",
+          "ABA"
+        ],
+        "key": {
+          "A": "ifeu:dragon_star",
+          "B": "powah:dielectric_casing",
+          "C": "industrialforegoing:machine_frame_simple"
+        },
+        "id": "random_essence_producer"
       }
     ]
 
