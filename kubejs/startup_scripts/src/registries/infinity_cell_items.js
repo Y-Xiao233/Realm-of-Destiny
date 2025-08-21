@@ -180,11 +180,11 @@ var s5 = [
 	'functionalstorage:diamond_upgrade',
 	'appflux:flux_accessor',
 	"ae2:quantum_link",
-	"ae2:quantum_ring"
+	"ae2:quantum_ring",
+	'advanced_ae:reaction_chamber'
 ]
 
 var s6 = [
-	"advanced_ae:reaction_chamber",
 	"advanced_ae:quantum_crafter",
 	"advanced_ae:quantum_core",
 	"advanced_ae:quantum_structure",

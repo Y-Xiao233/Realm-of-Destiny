@@ -11,7 +11,7 @@ ServerEvents.recipes(event =>{
         },
         {
             output:Item.of('ars_nouveau:greater_experience_gem',16),
-            inputs:[Item.of('minecraft:emerald',2),Item.of('minecraft:glowstone_dust'),Item.of('ae2:matter_ball')],
+            inputs:[Item.of('minecraft:experience_bottle',2),Item.of('minecraft:glowstone_dust'),Item.of('ae2:matter_ball')],
             cost:96,
             time:40,
             id:"greater_experience_gem"

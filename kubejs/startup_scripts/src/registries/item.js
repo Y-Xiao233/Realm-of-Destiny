@@ -44,7 +44,7 @@ StartupEvents.registry("item",event =>{
     event.create("tome2").maxStackSize(1).rarity('epic')
     event.create("tome3").maxStackSize(1).rarity("supreme")
     event.create("steel_drill").tag("createoreexcavation:drills")
-    event.create("recraft_charm").maxStackSize(1)
+    event.create("recraft_charm").maxStackSize(8)
 
 
 

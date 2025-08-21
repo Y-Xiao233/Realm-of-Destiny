@@ -35,10 +35,14 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "4894421566C835D5"
-					table_id: 6027752341186428952L
-					type: "random"
+					id: "69DC69E8483A6BA2"
+					item: "sophisticatedbackpacks:advanced_magnet_upgrade"
+					type: "item"
+				}
+				{
+					id: "7DBF68BEA82E71AF"
+					item: "sophisticatedbackpacks:netherite_backpack"
+					type: "item"
 				}
 			]
 			tasks: [

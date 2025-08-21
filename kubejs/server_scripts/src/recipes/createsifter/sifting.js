@@ -41,7 +41,7 @@ ServerEvents.recipes(event =>{
         [
             Item.of('actuallyadditions:diamatine_crystal').withChance(0.6),
             Item.of('mekanism:enriched_diamond').withChance(0.5),
-            Item.of('actuallyadditions:diamatine_crystal_block').withChance(0.4)
+            Item.of('actuallyadditions:diamatine_crystal_block').withChance(0.8)
         ],
         ['actuallyadditions:diamatine_crystal_block','kubejs:infused_mesh'],
     ).id(id_prefix + "diamatine_crystal_block"),

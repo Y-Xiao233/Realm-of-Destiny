@@ -57,6 +57,7 @@
 				"{rod.welcome.3.description6}"
 				"{rod.welcome.3.description7}"
 				"{rod.welcome.3.description8}"
+				"{rod.welcome.3.description9}"
 			]
 			icon: {
 				Count: 1
@@ -137,6 +138,7 @@
 					type: "command"
 				}
 				{
+					auto: "enabled"
 					command: "/tellraw @a {\"text\":\"点击前往作者的爱发电\",\"color\":\"green\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://afdian.com/a/y_xiao233\"}}"
 					id: "5BF1F26A6B390327"
 					title: "{rod.welcome.3.afdian}"
