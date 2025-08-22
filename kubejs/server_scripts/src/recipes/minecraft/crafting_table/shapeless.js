@@ -85,9 +85,8 @@ ServerEvents.recipes(event => {
         event.shapeless(recipe.output,recipe.input).id(id_prefix+recipe.id)
     })
 
-        meshes.forEach(mesh =>{
+    meshes.forEach(mesh =>{
         let id = mesh.id
-        console.log(id_prefix + "mesh_unbreakable/" + id.substring(id.indexOf(":") + 1))
         event.shapeless(mesh.enchant('kubejs:mesh_unbreakable', 1),[mesh,Item.of('minecraft:enchanted_book').enchant('kubejs:mesh_unbreakable', 1).weakNBT()]).id(id_prefix + "mesh_unbreakable/" + id.substring(id.indexOf(":") + 1))
     })
 })

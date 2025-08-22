@@ -391,7 +391,9 @@
 		"mysticalagriculture:chrome_essence",
 		"mysticalagriculture:graphite_essence",
 		"mysticalagriculture:tungsten_essence",
-		"mysticalagriculture:titanium_essence"
+		"mysticalagriculture:titanium_essence",
+		"/ironfurnaces:upgrade_.*/",
+		"industrialforegoing:washing_factory"
     ],
     "infinity":[
         "ae2:crystal_resonance_generator",

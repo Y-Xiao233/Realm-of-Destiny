@@ -69,8 +69,6 @@ ItemEvents.rightClicked('kubejs:random_essence',event =>{
 		"mysticalagriculture:constantan_essence",
 		"mysticalagriculture:electrum_essence",
 		"mysticalagriculture:invar_essence",
-		"mysticalagriculture:tungsten_essence",
-		"mysticalagriculture:titanium_essence",
 		"mysticalagriculture:uranium_essence",
 		"mysticalagriculture:ruby_essence",
 		"mysticalagriculture:sapphire_essence",
