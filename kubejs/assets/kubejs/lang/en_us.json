@@ -174,5 +174,6 @@
     "infinities_cell.rod.c4":"§aSmart Cable",
     "infinities_cell.rod.c5":"§aDense Cable",
     "infinities_cell.rod.m1":"§aModular Routers & SFM & Xnet",
-    "infinities_cell.rod.diamond":"§aInfused Diamond"
+    "infinities_cell.rod.diamond":"§aInfused Diamond",
+    "information.rod.mekanism.alloy_reinforced":"§aCheck the §c1k ME Chemical Storage Cell§r recipe to get this"
 }

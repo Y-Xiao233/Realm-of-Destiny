@@ -17,7 +17,8 @@
         "kubejs:colorful_matter_ball_seven",
         "thermal:device_rock_gen",
 		"kubejs:book_of_uncrafting",
-		"kubejs:random_essence"
+		"kubejs:random_essence",
+		"mekanism:alloy_reinforced"
     ],
     "jei_information":[
         "kubejs:colorful_matter_ball",

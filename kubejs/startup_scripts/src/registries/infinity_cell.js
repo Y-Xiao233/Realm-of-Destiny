@@ -41,8 +41,4 @@ StartupEvents.registry("item",event =>{
     infinities_cell("c4",c4)
     infinities_cell("c5",c5)
     infinities_cell("m1",m1)
-
-    special_infinities_cell("diamond",keys =>{
-        keys.add(MekanismKeyHelper.infuseType("mekanism:diamond"))
-    })
 })

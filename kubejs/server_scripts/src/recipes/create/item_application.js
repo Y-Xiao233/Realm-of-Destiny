@@ -7,6 +7,12 @@ ServerEvents.recipes(event =>{
             hand:'mekanism_extras:upgrade_creative',
             block:'createcasing:creative_casing',
             id:"creative_crate"
+        },
+        {
+            output:'createcasing:creative_casing',
+            hand:'createcasing:chorium_ingot',
+            block:'#mekanismadditions:plastic_blocks',
+            id:"creative_casing"
         }
     ]
 

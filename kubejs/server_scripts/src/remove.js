@@ -402,7 +402,8 @@ ServerEvents.recipes(event =>{
         'powah:energizing_rod_niotic',
         'powah:energizing_rod_spirited',
         'powah:energizing_rod_blazing',
-        'trashcans:item_trash_can'
+        'trashcans:item_trash_can',
+        'createcasing:creative_casing'
     ]
 
     //根据配方id删除配方

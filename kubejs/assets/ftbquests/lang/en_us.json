@@ -95,7 +95,7 @@
     "rod.c1.s2.5.description1": "&bEmits different redstone signal levels based on mana amount",
     "rod.c1.s2.6.subtitle": "&c&o&lStore as much power as possible!!!",
     "rod.c1.s2.6.description0": "&cThermal Generator formula:",
-    "rod.c1.s2.6.description1": "&aPower = (Heat Source Temp / 1000) * [(Coolant Temp Absolute / 2) + 1] * Base Power",
+    "rod.c1.s2.6.description1": "&aPower = (Heat Source Temp / 1000) * [(Coolant Temp Absolute + 1) / 2] * Base Power",
     "rod.c1.s2.6.description2": "&5Special cases:",
     "rod.c1.s2.6.description3": "For fluid heat sources, current temperature = source temp / (n + 1) where n is flow distance",
     "rod.c1.s2.6.description4": "&bCurrent Heat Source Temp = Fluid Source Heat / (n + 1)",

@@ -40,10 +40,6 @@ ItemEvents.tooltip(tooltip =>{
         tooltip.add(item_tooltip,getLangKey(item_tooltip))
     })
 
-    infinity.forEach(item_tooltip => {
-        tooltip.add(item_tooltip,Text.translate("information.rod.infinity"))
-    })
-
     packages.forEach(item =>{
        tooltip.add(item,Text.translate("information.rod.package"))
     })
