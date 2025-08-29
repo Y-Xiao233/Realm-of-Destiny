@@ -125,8 +125,10 @@ ServerEvents.recipes(event =>{
                         if(cur + value[1] <= value[2]){
                             item.setNbt({chance:cur + value[1]})
                             return item
+                        }else{
+                            item.setNbt({chance:value[2]})
+                            return item
                         }
-                        return input.copy()
                     }else{
                         item.setNbt({chance:value[1]})
                         return item
