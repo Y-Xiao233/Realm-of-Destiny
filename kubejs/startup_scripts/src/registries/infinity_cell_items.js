@@ -74,7 +74,8 @@ var s1 = [
 	"buildinggadgets2:gadget_building",
 	'buildinggadgets2:template_manager',
 	'ae2additions:me_wireless_transceiver',
-	"everlastingabilities:ability_bottle"
+	"everlastingabilities:ability_bottle",
+	'ae2:level_emitter'
 ]
 
 var s2 = [

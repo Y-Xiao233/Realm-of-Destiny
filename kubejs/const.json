@@ -394,9 +394,11 @@
 		"mysticalagriculture:tungsten_essence",
 		"mysticalagriculture:titanium_essence",
 		"/ironfurnaces:upgrade_.*/",
-		"industrialforegoing:washing_factory"
+		"industrialforegoing:washing_factory",
+		"createsifter:brass_sifter"
     ],
     "infinity":[
+		"ae2:level_emitter",
         "ae2:crystal_resonance_generator",
         "aeinfinitybooster:infinity_card",
         "ae2:io_port",
